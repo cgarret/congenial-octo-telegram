@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "github.copilot.enable": true,
+    "github.copilot.inlineSuggest.enable": true
+  },
+  "extensions": {
+    "recommendations": [
+      "GitHub.copilot"
+    ]
+  }
+}

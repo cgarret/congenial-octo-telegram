@@ -1,0 +1,7 @@
+# Python version requirement
+
+# Add your project dependencies below:
+pandas 
+openpyxl
+xlsxwriter
+pytest
