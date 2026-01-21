@@ -1,0 +1,432 @@
+**********************
+PowerShell transcript start
+Start time: 20260116220647
+Username: DESKTOP-1U75EJC\cicit
+RunAs User: DESKTOP-1U75EJC\cicit
+Configuration Name: 
+Machine: DESKTOP-1U75EJC (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -WorkingDirectory ~
+Process ID: 9504
+PSVersion: 7.5.4
+PSEdition: Core
+GitCommitId: 7.5.4
+OS: Microsoft Windows 10.0.19045
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\workspace\congenial-octo-telegram\logs\session_2026-01-16_22-06-47.txt
+
+PS C:\Users\cicit> # Create a command logger
+$logFile = "C:\workspace\congenial-octo-telegram\commands.log"
+
+# Log a command
+"$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') | python reporting/email_report.py" | 
+    Add-Content -Path $logFile
+PS C:\Users\cicit> # Edit profile
+notepad $PROFILE
+
+# Add this function:
+function Log-Command {
+    param([string]$Command)
+    $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    "$timestamp | $Command" | Out-File -FilePath "C:\workspace\command-log.txt" -Append
+}
+
+# Use it like:
+# Log-Command "python script.py"
+PS C:\Users\cicit> # Add to your PowerShell profile
+notepad $PROFILE
+
+# Add these lines:
+Start-Transcript -Path "C:\Logs\PowerShell_$(Get-Date -Format 'yyyy-MM-dd_HH-mm-ss').txt" -Append
+Transcript started, output file is C:\Logs\PowerShell_2026-01-16_22-09-52.txt
+PS C:\Users\cicit> # Navigate to your project directory
+cd C:\workspace\congenial-octo-telegram
+
+# Create a virtual environment named .venv
+python -m venv .venv
+
+PS C:\workspace\congenial-octo-telegram> # Activate the virtual environment
+.\.venv\Scripts\Activate.ps1
+PS C:\workspace\congenial-octo-telegram>
+(.venv) # Upgrade pip
+python -m pip install --upgrade pip
+
+# Install project dependencies
+pip install -r requirements.txt
+Collecting pip
+  Using cached pip-25.0.1-py3-none-any.whl (1.8 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.2.1
+    Uninstalling pip-20.2.1:
+      Successfully uninstalled pip-20.2.1
+Successfully installed pip-25.0.1
+Requirement already satisfied: pandas in c:\workspace\congenial-octo-telegram\.venv\lib\site-packages (from -r requirements.txt (line 4)) (2.0.3)
+Requirement already satisfied: openpyxl in c:\workspace\congenial-octo-telegram\.venv\lib\site-packages (from -r requirements.txt (line 5)) (3.1.5)
+Requirement already satisfied: xlsxwriter in c:\workspace\congenial-octo-telegram\.venv\lib\site-packages (from -r requirements.txt (line 6)) (3.2.9)
+Requirement already satisfied: pytest in c:\workspace\congenial-octo-telegram\.venv\lib\site-packages (from -r requirements.txt (line 7)) (8.3.5)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\workspace\congenial-octo-telegram\.venv\lib\site-packages (from pandas->-r requirements.txt (line 4)) (2.9.0.pos
+t0)
+Requirement already satisfied: pytz>=2020.1 in c:\workspace\congenial-octo-telegram\.venv\lib\site-packages (from pandas->-r requirements.txt (line 4)) (2025.2)
+Requirement already satisfied: tzdata>=2022.1 in c:\workspace\congenial-octo-telegram\.venv\lib\site-packages (from pandas->-r requirements.txt (line 4)) (2025.3)
+Requirement already satisfied: numpy>=1.20.3 in c:\workspace\congenial-octo-telegram\.venv\lib\site-packages (from pandas->-r requirements.txt (line 4)) (1.24.4)
+Requirement already satisfied: et-xmlfile in c:\workspace\congenial-octo-telegram\.venv\lib\site-packages (from openpyxl->-r requirements.txt (line 5)) (2.0.0)
+Requirement already satisfied: colorama in c:\workspace\congenial-octo-telegram\.venv\lib\site-packages (from pytest->-r requirements.txt (line 7)) (0.4.6)
+Requirement already satisfied: exceptiongroup>=1.0.0rc8 in c:\workspace\congenial-octo-telegram\.venv\lib\site-packages (from pytest->-r requirements.txt (line 7)) (1.3.1)
+Requirement already satisfied: iniconfig in c:\workspace\congenial-octo-telegram\.venv\lib\site-packages (from pytest->-r requirements.txt (line 7)) (2.1.0)
+Requirement already satisfied: packaging in c:\workspace\congenial-octo-telegram\.venv\lib\site-packages (from pytest->-r requirements.txt (line 7)) (25.0)
+Requirement already satisfied: pluggy<2,>=1.5 in c:\workspace\congenial-octo-telegram\.venv\lib\site-packages (from pytest->-r requirements.txt (line 7)) (1.5.0)
+Requirement already satisfied: tomli>=1 in c:\workspace\congenial-octo-telegram\.venv\lib\site-packages (from pytest->-r requirements.txt (line 7)) (2.4.0)
+Requirement already satisfied: typing-extensions>=4.6.0 in c:\workspace\congenial-octo-telegram\.venv\lib\site-packages (from exceptiongroup>=1.0.0rc8->pytest->-r requireme
+nts.txt (line 7)) (4.13.2)
+Requirement already satisfied: six>=1.5 in c:\workspace\congenial-octo-telegram\.venv\lib\site-packages (from python-dateutil>=2.8.2->pandas->-r requirements.txt (line 4))
+(1.17.0)
+PS C:\workspace\congenial-octo-telegram>
+(.venv) pip list | Select-String -Pattern "pandas|openpyxl|xlsxwriter"
+
+openpyxl          3.1.5
+pandas            2.0.3
+xlsxwriter        3.2.9
+
+PS C:\workspace\congenial-octo-telegram>
+(.venv) notepadd
+notepadd: The term 'notepadd' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+notepadd: The term 'notepadd' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+PS C:\workspace\congenial-octo-telegram>
+(.venv) $env:ACCOUNT_1_EMAIL="loturco1986@gmail.com"
+
+PS C:\workspace\congenial-octo-telegram>
+(.venv) $env:ACCOUNT_1_PASS="cgmu nauj ezon drjx"
+PS C:\workspace\congenial-octo-telegram>
+(.venv) $env:SENDER_EMAIL="loturco1987@gmail.com"
+PS C:\workspace\congenial-octo-telegram>
+(.venv) $env:SENDER_PASS="ke8Pd#6QQ$w1yyBbr!t%"
+
+PS C:\workspace\congenial-octo-telegram>
+(.venv) $env:RECIPIENT_EMAIL="your-email@gmail.com"
+PS C:\workspace\congenial-octo-telegram>
+(.venv) 
+$env:ACCOUNT_1_EMAIL="loturco1986@gmail.com"
+PS C:\workspace\congenial-octo-telegram>
+(.venv) python reporting/email_report.py
+2026-01-16 22:48:34,218 - INFO - ============================================================
+2026-01-16 22:48:34,219 - INFO - Email Report Generator - Starting
+2026-01-16 22:48:34,221 - INFO - ============================================================
+2026-01-16 22:48:34,231 - INFO - Configuration:
+2026-01-16 22:48:34,232 - INFO -   • Discovered 1 source account(s)
+2026-01-16 22:48:34,234 - INFO -   • Report period: Last 7 day(s)
+2026-01-16 22:48:34,235 - INFO -   • Recipient: your-email@gmail.com
+2026-01-16 22:48:34,236 - INFO -   • Timeout: 60s, Max retries: 3
+2026-01-16 22:48:34,241 - INFO -
+2026-01-16 22:48:34,251 - INFO - [1/1] Processing account: loturco1986@gmail.com
+2026-01-16 22:48:34,252 - INFO - Connecting to loturco1986@gmail.com at imap.gmail.com...
+2026-01-16 22:48:34,254 - ERROR - Unexpected error processing loturco1986@gmail.com: __init__() got an unexpected keyword argument 'timeout'
+Traceback (most recent call last):
+  File "reporting/email_report.py", line 105, in fetch_from_account
+    mail = imaplib.IMAP4_SSL(server_host, timeout=IMAP_TIMEOUT)
+TypeError: __init__() got an unexpected keyword argument 'timeout'
+2026-01-16 22:48:34,257 - INFO -
+2026-01-16 22:48:34,259 - INFO - ============================================================
+2026-01-16 22:48:34,268 - INFO - Processing Complete
+2026-01-16 22:48:34,271 - INFO -   • Accounts processed: 0/1
+2026-01-16 22:48:34,281 - INFO -   • Total emails collected: 0
+2026-01-16 22:48:34,282 - INFO - ============================================================
+2026-01-16 22:48:34,283 - WARNING - No emails collected from any account.
+2026-01-16 22:48:34,284 - INFO - ============================================================
+PS C:\workspace\congenial-octo-telegram>
+(.venv) $env:RECIPIENT_EMAIL="wotanf@gmail.com"
+PS C:\workspace\congenial-octo-telegram>
+(.venv) $env:ACCOUNT_1_PASS="cgmunaujezondrjx"
+PS C:\workspace\congenial-octo-telegram>
+(.venv) python reporting/email_report.py
+2026-01-16 22:54:57,296 - INFO - ============================================================
+2026-01-16 22:54:57,296 - INFO - Email Report Generator - Starting
+2026-01-16 22:54:57,299 - INFO - ============================================================
+2026-01-16 22:54:57,306 - INFO - Configuration:
+2026-01-16 22:54:57,307 - INFO -   • Discovered 1 source account(s)
+2026-01-16 22:54:57,308 - INFO -   • Report period: Last 7 day(s)
+2026-01-16 22:54:57,309 - INFO -   • Recipient: wotanf@gmail.com
+2026-01-16 22:54:57,311 - INFO -   • Timeout: 60s, Max retries: 3
+2026-01-16 22:54:57,312 - INFO -
+2026-01-16 22:54:57,313 - INFO - [1/1] Processing account: loturco1986@gmail.com
+2026-01-16 22:54:57,314 - INFO - Connecting to loturco1986@gmail.com at imap.gmail.com...
+2026-01-16 22:54:57,315 - ERROR - Unexpected error processing loturco1986@gmail.com: __init__() got an unexpected keyword argument 'timeout'
+Traceback (most recent call last):
+  File "reporting/email_report.py", line 105, in fetch_from_account
+    mail = imaplib.IMAP4_SSL(server_host, timeout=IMAP_TIMEOUT)
+TypeError: __init__() got an unexpected keyword argument 'timeout'
+2026-01-16 22:54:57,322 - INFO -
+2026-01-16 22:54:57,329 - INFO - ============================================================
+2026-01-16 22:54:57,330 - INFO - Processing Complete
+2026-01-16 22:54:57,331 - INFO -   • Accounts processed: 0/1
+2026-01-16 22:54:57,333 - INFO -   • Total emails collected: 0
+2026-01-16 22:54:57,337 - INFO - ============================================================
+2026-01-16 22:54:57,344 - WARNING - No emails collected from any account.
+2026-01-16 22:54:57,345 - INFO - ============================================================
+PS C:\workspace\congenial-octo-telegram>
+(.venv) $env:timeout="60"
+PS C:\workspace\congenial-octo-telegram>
+(.venv) python reporting/email_report.py
+2026-01-16 22:56:56,444 - INFO - ============================================================
+2026-01-16 22:56:56,445 - INFO - Email Report Generator - Starting
+2026-01-16 22:56:56,447 - INFO - ============================================================
+2026-01-16 22:56:56,454 - INFO - Configuration:
+2026-01-16 22:56:56,456 - INFO -   • Discovered 1 source account(s)
+2026-01-16 22:56:56,457 - INFO -   • Report period: Last 7 day(s)
+2026-01-16 22:56:56,458 - INFO -   • Recipient: wotanf@gmail.com
+2026-01-16 22:56:56,463 - INFO -   • Timeout: 60s, Max retries: 3
+2026-01-16 22:56:56,470 - INFO -
+2026-01-16 22:56:56,471 - INFO - [1/1] Processing account: loturco1986@gmail.com
+2026-01-16 22:56:56,472 - INFO - Connecting to loturco1986@gmail.com at imap.gmail.com...
+2026-01-16 22:56:56,473 - ERROR - Unexpected error processing loturco1986@gmail.com: __init__() got an unexpected keyword argument 'timeout'
+Traceback (most recent call last):
+  File "reporting/email_report.py", line 105, in fetch_from_account
+    mail = imaplib.IMAP4_SSL(server_host, timeout=IMAP_TIMEOUT)
+TypeError: __init__() got an unexpected keyword argument 'timeout'
+2026-01-16 22:56:56,478 - INFO -
+2026-01-16 22:56:56,485 - INFO - ============================================================
+2026-01-16 22:56:56,486 - INFO - Processing Complete
+2026-01-16 22:56:56,487 - INFO -   • Accounts processed: 0/1
+2026-01-16 22:56:56,489 - INFO -   • Total emails collected: 0
+2026-01-16 22:56:56,491 - INFO - ============================================================
+2026-01-16 22:56:56,499 - WARNING - No emails collected from any account.
+2026-01-16 22:56:56,500 - INFO - ============================================================
+PS C:\workspace\congenial-octo-telegram>
+(.venv) $env:IMAP_TIMEOUT="120"
+PS C:\workspace\congenial-octo-telegram>
+(.venv) $env:TIMEOUT="120"
+PS C:\workspace\congenial-octo-telegram>
+(.venv) python reporting/email_report.py
+2026-01-16 23:02:58,217 - INFO - ============================================================
+2026-01-16 23:02:58,217 - INFO - Email Report Generator - Starting
+2026-01-16 23:02:58,220 - INFO - ============================================================
+2026-01-16 23:02:58,227 - INFO - Configuration:
+2026-01-16 23:02:58,228 - INFO -   • Discovered 1 source account(s)
+2026-01-16 23:02:58,230 - INFO -   • Report period: Last 7 day(s)
+2026-01-16 23:02:58,231 - INFO -   • Recipient: wotanf@gmail.com
+2026-01-16 23:02:58,232 - INFO -   • Timeout: 120s, Max retries: 3
+2026-01-16 23:02:58,233 - INFO -
+2026-01-16 23:02:58,235 - INFO - [1/1] Processing account: loturco1986@gmail.com
+2026-01-16 23:02:58,236 - INFO - Connecting to loturco1986@gmail.com at imap.gmail.com...
+2026-01-16 23:02:58,237 - ERROR - Unexpected error processing loturco1986@gmail.com: __init__() got an unexpected keyword argument 'timeout'
+Traceback (most recent call last):
+  File "reporting/email_report.py", line 105, in fetch_from_account
+    mail = imaplib.IMAP4_SSL(server_host, timeout=IMAP_TIMEOUT)
+TypeError: __init__() got an unexpected keyword argument 'timeout'
+2026-01-16 23:02:58,239 - INFO -
+2026-01-16 23:02:58,240 - INFO - ============================================================
+2026-01-16 23:02:58,242 - INFO - Processing Complete
+2026-01-16 23:02:58,250 - INFO -   • Accounts processed: 0/1
+2026-01-16 23:02:58,255 - INFO -   • Total emails collected: 0
+2026-01-16 23:02:58,256 - INFO - ============================================================
+2026-01-16 23:02:58,262 - WARNING - No emails collected from any account.
+2026-01-16 23:02:58,264 - INFO - ============================================================
+PS C:\workspace\congenial-octo-telegram>
+(.venv) $env:TIMEOUT=""
+PS C:\workspace\congenial-octo-telegram>
+(.venv) python reporting/email_report.py
+2026-01-16 23:03:51,942 - INFO - ============================================================
+2026-01-16 23:03:51,943 - INFO - Email Report Generator - Starting
+2026-01-16 23:03:51,946 - INFO - ============================================================
+2026-01-16 23:03:51,952 - INFO - Configuration:
+2026-01-16 23:03:51,953 - INFO -   • Discovered 1 source account(s)
+2026-01-16 23:03:51,954 - INFO -   • Report period: Last 7 day(s)
+2026-01-16 23:03:51,955 - INFO -   • Recipient: wotanf@gmail.com
+2026-01-16 23:03:51,958 - INFO -   • Timeout: 120s, Max retries: 3
+2026-01-16 23:03:51,959 - INFO -
+2026-01-16 23:03:51,967 - INFO - [1/1] Processing account: loturco1986@gmail.com
+2026-01-16 23:03:51,969 - INFO - Connecting to loturco1986@gmail.com at imap.gmail.com...
+2026-01-16 23:03:51,970 - ERROR - Unexpected error processing loturco1986@gmail.com: __init__() got an unexpected keyword argument 'timeout'
+Traceback (most recent call last):
+  File "reporting/email_report.py", line 105, in fetch_from_account
+    mail = imaplib.IMAP4_SSL(server_host, timeout=IMAP_TIMEOUT)
+TypeError: __init__() got an unexpected keyword argument 'timeout'
+2026-01-16 23:03:51,972 - INFO -
+2026-01-16 23:03:51,974 - INFO - ============================================================
+2026-01-16 23:03:51,975 - INFO - Processing Complete
+2026-01-16 23:03:51,976 - INFO -   • Accounts processed: 0/1
+2026-01-16 23:03:51,978 - INFO -   • Total emails collected: 0
+2026-01-16 23:03:51,979 - INFO - ============================================================
+2026-01-16 23:03:51,981 - WARNING - No emails collected from any account.
+2026-01-16 23:03:51,982 - INFO - ============================================================
+PS C:\workspace\congenial-octo-telegram>
+(.venv) python reporting/email_report.py
+2026-01-16 23:09:44,733 - INFO - ============================================================
+2026-01-16 23:09:44,733 - INFO - Email Report Generator - Starting
+2026-01-16 23:09:44,736 - INFO - ============================================================
+2026-01-16 23:09:44,744 - INFO - Configuration:
+2026-01-16 23:09:44,744 - INFO -   • Discovered 1 source account(s)
+2026-01-16 23:09:44,746 - INFO -   • Report period: Last 7 day(s)
+2026-01-16 23:09:44,747 - INFO -   • Recipient: wotanf@gmail.com
+2026-01-16 23:09:44,761 - INFO -   • Timeout: 120s, Max retries: 3
+2026-01-16 23:09:44,761 - INFO -
+2026-01-16 23:09:44,762 - INFO - [1/1] Processing account: loturco1986@gmail.com
+2026-01-16 23:09:44,766 - INFO - Connecting to loturco1986@gmail.com at imap.gmail.com...
+2026-01-16 23:09:45,971 - ERROR - IMAP error for loturco1986@gmail.com: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-01-16 23:09:45,973 - INFO - Retrying loturco1986@gmail.com (attempt 1/3)...
+2026-01-16 23:09:46,993 - INFO - Connecting to loturco1986@gmail.com at imap.gmail.com...
+2026-01-16 23:09:48,035 - ERROR - IMAP error for loturco1986@gmail.com: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-01-16 23:09:48,036 - INFO - Retrying loturco1986@gmail.com (attempt 2/3)...
+2026-01-16 23:09:50,053 - INFO - Connecting to loturco1986@gmail.com at imap.gmail.com...
+2026-01-16 23:09:51,103 - ERROR - IMAP error for loturco1986@gmail.com: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-01-16 23:09:51,104 - INFO - Retrying loturco1986@gmail.com (attempt 3/3)...
+2026-01-16 23:09:55,111 - INFO - Connecting to loturco1986@gmail.com at imap.gmail.com...
+2026-01-16 23:09:59,685 - ERROR - IMAP error for loturco1986@gmail.com: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-01-16 23:09:59,687 - INFO -
+2026-01-16 23:09:59,689 - INFO - ============================================================
+2026-01-16 23:09:59,691 - INFO - Processing Complete
+2026-01-16 23:09:59,698 - INFO -   • Accounts processed: 0/1
+2026-01-16 23:09:59,699 - INFO -   • Total emails collected: 0
+2026-01-16 23:09:59,701 - INFO - ============================================================
+2026-01-16 23:09:59,702 - WARNING - No emails collected from any account.
+2026-01-16 23:09:59,704 - INFO - ============================================================
+PS C:\workspace\congenial-octo-telegram>
+(.venv) l
+$env:IMAP_TIMEOUT="120"
+l: The term 'l' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+l: The term 'l' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+PS C:\workspace\congenial-octo-telegram>
+(.venv) $env:IMAP_TIMEOUT="120"
+PS C:\workspace\congenial-octo-telegram>
+(.venv) $env:TIMEOUT="120"
+PS C:\workspace\congenial-octo-telegram>
+(.venv) $env:DAYS_BACK="60"
+PS C:\workspace\congenial-octo-telegram>
+(.venv) python reporting/email_report.py
+2026-01-16 23:20:37,845 - INFO - ============================================================
+2026-01-16 23:20:37,846 - INFO - Email Report Generator - Starting
+2026-01-16 23:20:37,849 - INFO - ============================================================
+2026-01-16 23:20:37,854 - INFO - Configuration:
+2026-01-16 23:20:37,856 - INFO -   • Discovered 1 source account(s)
+2026-01-16 23:20:37,857 - INFO -   • Report period: Last 60 day(s)
+2026-01-16 23:20:37,859 - INFO -   • Recipient: wotanf@gmail.com
+2026-01-16 23:20:37,860 - INFO -   • Timeout: 120s, Max retries: 3
+2026-01-16 23:20:37,862 - INFO -
+2026-01-16 23:20:37,863 - INFO - [1/1] Processing account: loturco1986@gmail.com
+2026-01-16 23:20:37,864 - INFO - Connecting to loturco1986@gmail.com at imap.gmail.com...
+2026-01-16 23:20:38,577 - ERROR - IMAP error for loturco1986@gmail.com: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-01-16 23:20:38,578 - INFO - Retrying loturco1986@gmail.com (attempt 1/3)...
+2026-01-16 23:20:39,585 - INFO - Connecting to loturco1986@gmail.com at imap.gmail.com...
+2026-01-16 23:20:40,572 - ERROR - IMAP error for loturco1986@gmail.com: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-01-16 23:20:40,573 - INFO - Retrying loturco1986@gmail.com (attempt 2/3)...
+2026-01-16 23:20:42,596 - INFO - Connecting to loturco1986@gmail.com at imap.gmail.com...
+2026-01-16 23:20:43,875 - ERROR - IMAP error for loturco1986@gmail.com: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-01-16 23:20:43,875 - INFO - Retrying loturco1986@gmail.com (attempt 3/3)...
+2026-01-16 23:20:47,888 - INFO - Connecting to loturco1986@gmail.com at imap.gmail.com...
+2026-01-16 23:20:49,035 - ERROR - IMAP error for loturco1986@gmail.com: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-01-16 23:20:49,039 - INFO -
+2026-01-16 23:20:49,049 - INFO - ============================================================
+2026-01-16 23:20:49,052 - INFO - Processing Complete
+2026-01-16 23:20:49,055 - INFO -   • Accounts processed: 0/1
+2026-01-16 23:20:49,061 - INFO -   • Total emails collected: 0
+2026-01-16 23:20:49,067 - INFO - ============================================================
+2026-01-16 23:20:49,070 - WARNING - No emails collected from any account.
+2026-01-16 23:20:49,083 - INFO - ============================================================
+PS C:\workspace\congenial-octo-telegram>
+(.venv) $env:ACCOUNT_1_SERVER="smto.gmail.com"
+PS C:\workspace\congenial-octo-telegram>
+(.venv) $env:ACCOUNT_1_SERVER="smtp.gmail.com"
+PS C:\workspace\congenial-octo-telegram>
+(.venv) python reporting/email_report.py
+2026-01-16 23:27:05,500 - INFO - ============================================================
+2026-01-16 23:27:05,501 - INFO - Email Report Generator - Starting
+2026-01-16 23:27:05,503 - INFO - ============================================================
+2026-01-16 23:27:05,510 - INFO - Configuration:
+2026-01-16 23:27:05,511 - INFO -   • Discovered 1 source account(s)
+2026-01-16 23:27:05,512 - INFO -   • Report period: Last 60 day(s)
+2026-01-16 23:27:05,514 - INFO -   • Recipient: wotanf@gmail.com
+2026-01-16 23:27:05,515 - INFO -   • Timeout: 120s, Max retries: 3
+2026-01-16 23:27:05,516 - INFO -
+2026-01-16 23:27:05,518 - INFO - [1/1] Processing account: loturco1986@gmail.com
+2026-01-16 23:27:05,519 - INFO - Connecting to loturco1986@gmail.com at smtp.gmail.com...
+2026-01-16 23:27:06,638 - ERROR - IMAP error for loturco1986@gmail.com: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-01-16 23:27:06,638 - INFO - Retrying loturco1986@gmail.com (attempt 1/3)...
+2026-01-16 23:27:07,648 - INFO - Connecting to loturco1986@gmail.com at smtp.gmail.com...
+2026-01-16 23:27:08,182 - ERROR - IMAP error for loturco1986@gmail.com: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-01-16 23:27:08,183 - INFO - Retrying loturco1986@gmail.com (attempt 2/3)...
+2026-01-16 23:27:10,192 - INFO - Connecting to loturco1986@gmail.com at smtp.gmail.com...
+2026-01-16 23:27:11,301 - ERROR - IMAP error for loturco1986@gmail.com: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-01-16 23:27:11,301 - INFO - Retrying loturco1986@gmail.com (attempt 3/3)...
+2026-01-16 23:27:15,310 - INFO - Connecting to loturco1986@gmail.com at smtp.gmail.com...
+2026-01-16 23:27:16,372 - ERROR - IMAP error for loturco1986@gmail.com: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-01-16 23:27:16,374 - INFO -
+2026-01-16 23:27:16,376 - INFO - ============================================================
+2026-01-16 23:27:16,383 - INFO - Processing Complete
+2026-01-16 23:27:16,384 - INFO -   • Accounts processed: 0/1
+2026-01-16 23:27:16,386 - INFO -   • Total emails collected: 0
+2026-01-16 23:27:16,387 - INFO - ============================================================
+2026-01-16 23:27:16,388 - WARNING - No emails collected from any account.
+2026-01-16 23:27:16,389 - INFO - ============================================================
+PS C:\workspace\congenial-octo-telegram>
+(.venv) python reporting/email_report.py
+2026-01-16 23:29:29,952 - INFO - ============================================================
+2026-01-16 23:29:29,952 - INFO - Email Report Generator - Starting
+2026-01-16 23:29:29,955 - INFO - ============================================================
+2026-01-16 23:29:29,962 - INFO - Configuration:
+2026-01-16 23:29:29,963 - INFO -   • Discovered 1 source account(s)
+2026-01-16 23:29:29,965 - INFO -   • Report period: Last 60 day(s)
+2026-01-16 23:29:29,967 - INFO -   • Recipient: wotanf@gmail.com
+2026-01-16 23:29:29,976 - INFO -   • Timeout: 120s, Max retries: 3
+2026-01-16 23:29:29,977 - INFO -
+2026-01-16 23:29:29,978 - INFO - [1/1] Processing account: loturco1986@gmail.com
+2026-01-16 23:29:29,982 - INFO - Connecting to loturco1986@gmail.com at smtp.gmail.com...
+2026-01-16 23:29:31,118 - ERROR - IMAP error for loturco1986@gmail.com: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-01-16 23:29:31,118 - INFO - Retrying loturco1986@gmail.com (attempt 1/3)...
+2026-01-16 23:29:32,138 - INFO - Connecting to loturco1986@gmail.com at smtp.gmail.com...
+2026-01-16 23:29:32,622 - ERROR - IMAP error for loturco1986@gmail.com: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-01-16 23:29:32,623 - INFO - Retrying loturco1986@gmail.com (attempt 2/3)...
+2026-01-16 23:29:34,638 - INFO - Connecting to loturco1986@gmail.com at smtp.gmail.com...
+2026-01-16 23:29:35,673 - ERROR - IMAP error for loturco1986@gmail.com: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-01-16 23:29:35,674 - INFO - Retrying loturco1986@gmail.com (attempt 3/3)...
+2026-01-16 23:29:39,690 - INFO - Connecting to loturco1986@gmail.com at smtp.gmail.com...
+2026-01-16 23:29:40,768 - ERROR - IMAP error for loturco1986@gmail.com: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-01-16 23:29:40,778 - INFO -
+2026-01-16 23:29:40,784 - INFO - ============================================================
+2026-01-16 23:29:40,792 - INFO - Processing Complete
+2026-01-16 23:29:40,795 - INFO -   • Accounts processed: 0/1
+2026-01-16 23:29:40,799 - INFO -   • Total emails collected: 0
+2026-01-16 23:29:40,812 - INFO - ============================================================
+2026-01-16 23:29:40,817 - WARNING - No emails collected from any account.
+2026-01-16 23:29:40,828 - INFO - ============================================================
+PS C:\workspace\congenial-octo-telegram>
+(.venv) $env:ACCOUNT_1_SERVER="smtp.gmail.com"
+PS C:\workspace\congenial-octo-telegram>
+(.venv) python reporting/email_report.py
+2026-01-16 23:31:02,842 - INFO - ============================================================
+2026-01-16 23:31:02,843 - INFO - Email Report Generator - Starting
+2026-01-16 23:31:02,845 - INFO - ============================================================
+2026-01-16 23:31:02,846 - INFO - Configuration:
+2026-01-16 23:31:02,856 - INFO -   • Discovered 1 source account(s)
+2026-01-16 23:31:02,857 - INFO -   • Report period: Last 60 day(s)
+2026-01-16 23:31:02,858 - INFO -   • Recipient: wotanf@gmail.com
+2026-01-16 23:31:02,860 - INFO -   • Timeout: 120s, Max retries: 3
+2026-01-16 23:31:02,861 - INFO -
+2026-01-16 23:31:02,862 - INFO - [1/1] Processing account: loturco1986@gmail.com
+2026-01-16 23:31:02,863 - INFO - Connecting to loturco1986@gmail.com at smtp.gmail.com...
+2026-01-16 23:31:03,946 - ERROR - IMAP error for loturco1986@gmail.com: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-01-16 23:31:03,947 - INFO - Retrying loturco1986@gmail.com (attempt 1/3)...
+2026-01-16 23:31:04,958 - INFO - Connecting to loturco1986@gmail.com at smtp.gmail.com...
+2026-01-16 23:31:06,097 - ERROR - IMAP error for loturco1986@gmail.com: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-01-16 23:31:06,098 - INFO - Retrying loturco1986@gmail.com (attempt 2/3)...
+2026-01-16 23:31:08,123 - INFO - Connecting to loturco1986@gmail.com at smtp.gmail.com...
+2026-01-16 23:31:08,634 - ERROR - IMAP error for loturco1986@gmail.com: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-01-16 23:31:08,635 - INFO - Retrying loturco1986@gmail.com (attempt 3/3)...
+2026-01-16 23:31:12,658 - INFO - Connecting to loturco1986@gmail.com at smtp.gmail.com...
+2026-01-16 23:31:13,673 - ERROR - IMAP error for loturco1986@gmail.com: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-01-16 23:31:13,674 - INFO -
+2026-01-16 23:31:13,677 - INFO - ============================================================
+2026-01-16 23:31:13,686 - INFO - Processing Complete
+2026-01-16 23:31:13,687 - INFO -   • Accounts processed: 0/1
+2026-01-16 23:31:13,688 - INFO -   • Total emails collected: 0
+2026-01-16 23:31:13,690 - INFO - ============================================================
+2026-01-16 23:31:13,694 - WARNING - No emails collected from any account.
+2026-01-16 23:31:13,704 - INFO - ============================================================
+PS C:\workspace\congenial-octo-telegram>

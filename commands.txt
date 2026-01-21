@@ -1,0 +1,20 @@
+
+CommandLine
+-----------
+try { . "c:\Apps\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scr…
+& C:/workspace/congenial-octo-telegram/.venv/Scripts/Activate.ps1
+# Account to check (Gmail)…
+$env:ACCOUNT_1_PASS="your-16-char-app-password"
+$env:ACCOUNT_1_PASS="m!psxBZwZFt$AMtKnw%HXxzaKU*WapAjsA57ZE^XVHt7x$2^Cz"
+ls
+python .\reporting\email_report.py
+$env:RECIPIENT_EMAIL="loturco1987@gmail.com"
+python .\reporting\email_report.py
+# Create profile if it doesn't exist
+if (!(Test-Path $PROFILE)) {…
+# Add auto-save function
+@'…
+# Reload profile
+. $PROFILE
+# Export all recent commands to a file
+

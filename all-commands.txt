@@ -1,0 +1,2199 @@
+cd C:\workspace\docker-labs\
+git clone git@github.com:fuzziebrain/docker-oracle-xe.git
+cd C:\workspace\docker-labs\
+git clone git@github.com:fuzziebrain/docker-oracle-xe.git
+cd C:\workspace\docker-labs\
+https://github.com/fuzziebrain/docker-oracle-xe.git
+git clone https://github.com/fuzziebrain/docker-oracle-xe.git
+cd .\docker-oracle-xe\
+ls
+ls C:\Users\cicit\Downloads\
+ls C:\Users\cicit\Downloads\oracle-database-xe-18c-1.0-1.x86_64.rpm
+mv C:\Users\cicit\Downloads\oracle-database-xe-18c-1.0-1.x86_64.rpm .\files\
+ls .\files\
+docker build -t oracle-xe:18c .
+docker
+cd C:\workspace\docker-labs
+ls
+cd .\docker-oracle-xe\
+ls
+docker build -t oracle-xe:18c .
+docker-machine start
+docker
+docker run -d -p 80:80 docker/getting-started
+cd C:\workspace\docker-labs\
+ls
+cd .\docker-oracle-xe\
+docker build -t oracle-xe:18c .
+ls ~/docker
+mkdir ~/docker/oracle-xe
+ls
+ls .\scripts\
+copy .\scripts\runOracleImage.bat.txt .\scripts\runOracleImage.bat
+.\scripts\runOracleImage.bat
+cd C:\workspace\docker-labs\docker-oracle-xe\
+.\scripts\runOracleImage.bat
+cd C:\workspace\docker-labs\
+ls
+cd .\docker-oracle-xe\
+.\scripts\runOracleImage.bat
+docker stop oracle-xe
+docker start oracle-xe
+docker logs oracle-xe
+docker run -h
+docker run --help
+docker
+docker restart oracle-xe
+docker logs oracle-xe
+.\scripts\runOracleImage.bat
+docker logs oracle-xe
+cd C:\workspace\docker-labs\
+cd .\docker-oracle-xe\
+docker start oracle-xe
+docker restart oracle-xe
+docker stop oracle-xe
+docker run oracle-xe
+docker start oracle-xe
+docker stop oracle-xe
+docker start oracle-xe
+docker stop oracle-xe
+docker volume create oracle-xe-vol
+docker volume ls
+.\scripts\runOracleImage.bat
+docker exec -it oracle-xe bash -c "source /home/oracle/.bashrc; sqlplus /nolog"
+docker exec -it oracle-xe bash -c "source /home/oracle/.bashrc; "
+docker exec -it oracle-xe bash -c bash
+docker stop oracle-xe
+cd C:\workspace\docker-labs\
+cd .\docker-oracle-xe\
+docker start oracle-xe
+docker stop oracle-xe
+cd C:\workspace\
+cd .\docker-labs\
+cd .\docker-oracle-xe\
+docker start oracle-xe
+docker -it exec oracle-xe batch
+docker -it exec oracle-xe bash
+docker exec -it oracle-xe bash
+docker stop oracle-xe
+cd ùwo
+cd C:\workspace\docker-labs\docker-oracle-xe\
+docker s
+docker start oracle-xe
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-master
+mvn clean verify -pl batch-core -P dev spring-boot:run
+docker stop oracle-xe
+cd C:\workspace\
+cd .\docker-labs\
+cd .\docker-oracle-xe\
+docker start oracle-xe
+docker stop oracle-xe
+docker start oracle-xe
+java --version
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-master
+mvn clean -pl batch-core -P dev spring-boot:run
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-mast
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-master
+java -jar batch-core\target\batch-core-0.0.1-SNAPSHOT-spring-boot.jar
+ls .\batch-core\target\
+ls .\batch-core\target\batch.core-0.0.1-spring-boot.jar
+java -jar .\batch-core\target\batch.core-0.0.1-spring-boot.jar
+ls .\batch-core\target\batch.core-0.0.1-spring-boot.jar
+java -jar .\batch-core\target\batch.core-0.0.1-spring-boot.jar
+C:\Apps\Java\jdk1.8.0_251\bin\java -jar .\batch-core\target\batch.core-0.0.1-spring-boot.jar
+dock
+e
+docker stop oracle-xe
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-master
+java -jar .\batch-core\target\batch.core-0.0.1-spring-boot.jar
+docker start oracle-xe
+java -jar .\batch-core\target\batch.core-0.0.1-spring-boot.jar
+mvn -Dmaven.test.skip=true -pl batch-core package
+mvn -Dmaven.test.skip=true -pl batch-core -P dev package
+mvn -D maven.test.skip=true -pl batch-core -P dev package
+docker stop oracle-xe
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-master
+docker start oracle-xe
+mkdir logs
+mvn clean -pl batch-core -P dev spring-boot:run
+ls
+ls .\logs\
+mvn clean -pl batch-core -P dev spring-boot:run
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\Intesi\
+ls
+cd .\wkseclipse\
+ls
+cd .\jtrustbe-batch-master\
+ls
+mvn clean -pl batch-core -P dev spring-boot:run
+s
+mvn clean -pl batch-core -P dev spring-boot:run
+docker stop oracle-xe
+cd C:\workspace\Intesi\wkseclipse\
+sl
+ls
+cd .\jtrustbe-batch-master\
+ls
+docker stop oracle-xe
+docker start oracle-xe
+mvn clean -pl batch-core -P dev spring-boot:run
+mvn clean -pl batch-persistence -P dev install
+mvn clean -pl batch-core -P dev spring-boot:run
+mvn clean -pl batch-persistence -P dev install
+mvn clean -pl batch-core -P dev spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev spring-boot:run
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\Intesi\wkseclipse\
+ls
+cd .\jtrustbe-batch-master\
+ls
+mvn clean -pl batch-core -P dev spring-boot:run
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\Intesi\
+ls
+cd .\wkseclipse\
+ls
+cd .\jtrustbe-batch-master\
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev spring-boot:run
+cd C:\workspace\Intesi\wkseclipse\
+ls
+cd .\jtrustbe-batch-master\
+ls
+mvn clean -pl batch-core -P dev spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev spring-boot:run
+docker exec -it oracle-xe bash
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev spring-boot:run
+mvn -P dev install
+mvn clean -pl batch-core -P dev spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev spring-boot:run
+docker stop oracle-xe
+docker start oracle-xe
+mvn clean -pl batch-core -P dev spring-boot:run
+exit
+cd C:\workspace\Intesi\wkseclipse\
+ls
+cd .\jtrustbe-batch-master\
+ls
+docker start oracle-xe
+mvn clean -pl batch-core -P dev spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev spring-boot:run
+docker start oracle-xe
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\Intesi\wkseclipse\
+ls
+cd .\jtrustbe-batch-master\
+mvn clean -pl batch-core -P dev spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev spring-boot:run
+mvn clean -pl batch-core -P stage spring-boot:run
+mvn clean -pl batch-core -P stage -Dspring.profiles.active=stage   spring-boot:run
+mvn clean -pl batch-core -P stage -D spring.profiles.active=stage   spring-boot:run
+mvn clean -pl batch-core -P stage    spring-boot:run
+mvn clean -pl batch-core -P stage    spring-boot:run -X
+mvn clean -pl batch-core -P stage    spring-boot:run
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-master
+mvn clean -pl batch-core -P stage    spring-boot:run
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-core -P dev -D spring.profiles.active=dev   spring-boot:run
+mvn clean -pl batch-core -P stage -D spring.profiles.active=stage   spring-boot:run
+docker stop oracle-xe
+docker tart
+docker start oracle-xe
+docker stop oracle-xe
+docker start oracle-xe
+docker stop oracle-xe
+docker start oracle-xe
+history
+docker exec -it oracle-xe bash -c "source /home/oracle/.bashrc; sqlplus /nolog"
+docker exec -it oracle-xe bash -c "source /home/oracle/.bashrc; "
+docker exec -it oracle-xe bash 
+cd C:\workspace\Intesi\
+cd .\wkseclipse\jtrustbe-batch-master\
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-core -P jtrustnew -Dspring.sid=jtrustnew install
+mvn clean -pl batch-core -P jtrustnew -Dspring.sid=jtrustnew hibernate3:hbm2java
+mvn clean -pl batch-persistence -P jtrustnew -Dspring.sid=jtrustnew hibernate3:hbm2java
+mvn clean -pl batch-persistence -P jtrustnew -D spring.sid=jtrustnew hibernate3:hbm2java
+mvn clean -pl batch-persistence -P dev package install
+docker exec -it oracle-xe bash 
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\
+cd .\Intesi\
+cd .\wkseclipse\
+ls
+cd .\jtrustbe-batch-master\
+ls
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P jtrustnew -Dspring.sid=jtrustnew hibernate3:hbm2java
+mvn clean -pl batch-persistence -P jtrustnew -D spring.sid=jtrustnew hibernate3:hbm2java
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-core -P dev package   spring-boot:run
+mvn clean -pl batch-persistence -P jtrustnew -D spring.sid=jtrustnew hibernate3:hbm2java
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev package   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev package   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev package   spring-boot:run
+docker stop oracle-xe
+docker start oracle-xe
+mvn clean -pl batch-core -P dev package   spring-boot:run
+docker stop oracle-xe
+docker start oracle-xe
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\Intesi\wkseclipse\
+ls
+cd .\jtrustbe-batch-master\
+mvn org.hibernate.tool:hibernate-tools-maven:help -Ddetail=true -Dgoal=hbm2java
+mvn clean -pl batch-persistence -P deV -D spring.sid=jtrustnew hibernate-tools:hbm2java
+mvn clean -pl batch-persistence -PdeV -D spring.sid=jtrustnew hibernate-tools:hbm2java
+mvn clean -pl batch-persistence -P jtrustnew -D spring.sid=jtrustnew hibernate-tools:hbm2java
+mvn clean -pl batch-persistence -P jtrustnew -D spring.sid=jtrustnew org.hibernate.tool:hibernate-tools-maven:hbm2java
+mvn help:describe -Dplugin=org.hibernate.tool:hibernate-tools-maven
+mvn help:describe -D plugin=org.hibernate.tool:hibernate-tools-maven
+mvn clean -pl batch-persistence -P jtrustnew -D spring.sid=jtrustnew hibernate-tools:hbm2java
+mvn clean -pl batch-persistence -P jtrustnew -D spring.sid=jtrustnew generate-sources
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-master\
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev package   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev package   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev package   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev package   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev package   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev package   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev package   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev package   spring-boot:run
+mvn clean -pl batch-core -P dev package 
+cd C:\Apps\batch.core-0.0.1
+.\bin\run.bat
+dir
+dir logs
+mvn clean -pl batch-core -P dev package 
+.\bin\run.bat
+mvn clean -pl batch-core -P dev package 
+.\bin\run.bat
+mvn clean -pl batch-core -P dev package   spring-boot:run -Dspring-boot.run.arguments="-timport inrTicketImportJob"
+mvn clean -pl batch-core -P dev package   spring-boot:run -D spring-boot.run.arguments="-timport inrTicketImportJob"
+mvn clean -pl batch-core -P dev package   spring-boot:run -D spring-boot.run.arguments="-timport\ninrTicketImportJob"
+mvn clean -pl batch-core -P dev package   spring-boot:run -D spring-boot.run.arguments='-timport inrTicketImportJob'
+mvn clean -pl batch-core -P dev package   spring-boot:run -D spring-boot.run.arguments=-timport inrTicketImportJob
+mvn clean -pl batch-core -P dev package   spring-boot:run -D spring-boot.run.arguments=`-timport inrTicketImportJob`
+mvn clean -pl batch-core -P dev package   spring-boot:run -D spring-boot.run.arguments={"-timport","inrTicketImportJob"}
+mvn clean -pl batch-core -P dev package   spring-boot:run -D spring-boot.run.arguments="-timport,inrTicketImportJob"
+mvn clean -pl batch-core -P dev package   spring-boot:run -D spring-boot.run.arguments="-timport inrTicketImportJob"
+mvn clean -pl batch-core -P dev package   spring-boot:run -D spring-boot.run.arguments=-timport -D spring-boot.run.arguments=inrTicketImportJob
+mvn clean -pl batch-core -P dev package   spring-boot:run -D spring-boot.run.arguments="-timport inrTicketImportJob"
+mvn clean -pl batch-core -P dev package   spring-boot:run -D spring-boot.run.arguments="--timport inrTicketImportJob"
+mvn clean -pl batch-core -P dev package   spring-boot:run -D spring-boot.run.arguments=--timport=inrTicketImportJob
+mvn clean -pl batch-core -P dev package   spring-boot:run -D spring-boot.run.arguments=-timport=inrTicketImportJob
+mvn clean -pl batch-core -P dev package   spring-boot:run -D spring-boot.run.arguments="-timport inrTicketImportJob"
+.\bin\run.bat
+.\bin\run.bat
+mvn clean -pl batch-core -P dev package 
+.\bin\run.bat
+mvn clean -pl batch-core -P dev package 
+.\bin\run.bat
+mvn clean -pl batch-core -P dev package 
+.\bin\run.bat
+mvn clean -pl batch-core -P dev package 
+.\bin\run.bat
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\
+cd .\Intesi\
+cd .\wkseclipse\
+cd .\jtrustbe-batch-master\
+mvn clean -pl batch-core -P dev package 
+mvn clean -pl batch-core -P stage    spring-boot:run
+mvn clean -pl batch-core -P dev package 
+mvn clean -pl batch-persistence -P jtrustnew -D spring.sid=jtrustnew -D spring.profiles.active=stage generate-sources
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev package
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev package
+mvn clean -pl batch-core -P dev    spring-boot:run
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-master
+mvn clean -pl batch-core -P dev package
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-core -P dev    spring-boot:run -e
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+docker stop oracle-xe
+docker start oracle-xe
+docker stop oracle-xe
+docker start oracle-xe
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\
+cd .\Intesi\
+cd .\wkseclipse\
+cd .\jtrustbe-batch-master\
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\
+cd .\Intesi\
+cd .\wkseclipse\jtrustbe-batch-master\
+mvn clean -pl batch-core -P dev package 
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev package 
+mvn clean -pl batch-persistence -P dev package install
+docker stop oracle-xe
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-master
+mvn clean -pl batch-core -P stage package 
+docker start oracle-xe
+mvn clean -pl batch-core -P stage package 
+mvn clean -pl batch-core -P stage    spring-boot:run
+mvn clean -pl batch-persistence -P stage package install
+mvn clean -pl batch-core -P stage    spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P stage    spring-boot:run
+mvn clean -pl batch-core -P dev    spring-boot:run
+mvn clean -pl batch-core -P dev  -D spring.profiles.active=dev   spring-boot:run
+docker stop oracle-xe
+docker start oracle-xe
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P inr -D spring.sid=inr -D spring.profiles.active=stage generate-sources
+mvn clean -pl batch-persistence -P inr -D spring.sid=inr -D spring.profiles.active=stage hibernate-tools:hbm2java
+mvn clean -pl batch-persistence -P inr -D spring.sid=inr -D spring.profiles.active=stage generate-sources
+mvn clean -pl batch-persistence -P stage package install
+mvn clean -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage package install
+mvn clean -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage package install
+mvn clean -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage package install
+mvn clean -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage package install
+mvn clean -pl batch-core -P stage   spring-boot:run
+docker stop oracle-xe
+docker start oracle-xe
+mvn clean -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-core -P dev   spring-boot:run
+docker stop oracle-xe
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-master
+mvn clean -pl batch-core -P stage   spring-boot:run
+docker start oracle-xe
+mvn clean -pl batch-persistence -P stage package install
+mvn clean -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-core -P stage package 
+docker stop oracle-xe
+docker start oracle-xe
+docker stop oracle-xe
+docker start oracle-xe
+docker stop oracle-xe
+docker start oracle-xe
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\
+cd .\Intesi\
+cd .\wkseclipse\
+ls
+cd .\jtrustbe-batch-branch\
+cd ..
+ls
+cd .\jtrustbe-batch-master\
+ls
+mvn clean -pl batch-persistence -P stage package install
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev   spring-boot:run
+docker stop oracle-xe
+docker start oracle-xe
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\
+cd .\Intesi\
+cd .\wkseclipse\
+cd .\jtrustbe-batch-master\
+mvn clean verify -Dmaven.test.skip=false  -Dtest=InrBtFooJobStepTest#whenJobExecuted_thenSuccess
+mvn clean verify -pl batch-core -Dmaven.test.skip=false  -Dtest=InrBtFooJobStepTest#whenJobExecuted_thenSuccess test
+mvn clean verify -pl batch-core -D maven.test.skip=false  -D test=InrBtFooJobStepTest#whenJobExecuted_thenSuccess test
+mvn clean verify -pl batch-core -P dev -Dmaven.test.skip=false  -Dtest=InrBtFooJobStepTest#whenJobExecuted_thenSuccess test
+mvn clean verify -pl batch-core -P dev -D maven.test.skip=false  -D test=InrBtFooJobStepTest#whenJobExecuted_thenSuccess test
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P stage package install
+mvn clean -pl batch-core -P stage package 
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean verify -pl batch-core -P dev -D maven.test.skip=false  -D test=InrBtFooJobStepTest#whenJobExecuted_thenSuccess test
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean verify -pl batch-core -P dev -D maven.test.skip=false  -D test=InrBtFooJobStepTest#whenJobExecuted_thenSuccess test
+docker stop oracle-xe
+docker sta
+rt
+docker start oracle-xe
+cd \workspace
+cd .\Intesi\
+cd .\wkseclipse\
+cd .\jtrustbe-batch-master\
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-core -P stage package 
+docker start oracle-xe
+cd C:\workspace\
+cd .\Intesi\
+cd .\wkseclipse\
+cd .\jtrustbe-batch-master\
+ls
+docker start oracle-xe
+cd C:\workspace\Intesi\wkseclipse\
+cd .\jtrustbe-batch-master\
+ls
+mvn clean -pl batch-core -P dev   spring-boot:run
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\
+cd .\Intesi\
+cd .\wkseclipse\
+cd .\jtrustbe-batch-master\
+mvn clean -pl batch-core -P stage   package
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-core -P stage   package
+mvn clean -pl batch-core -P dev   spring-boot:run
+docker stop oracle-xe
+cd C:\workspace\
+cd .\Intesi\
+cd .\wkseclipse\
+cd .\jtrustbe-batch-master\
+docker stop oracle-xe
+docker start oracle-xe
+mvn clean -pl batch-core -P stage   package
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P jtrustnew -D spring.sid=jtrustnew -D spring.profiles.active=dev hibernate-tools:hbm2java
+mvn clean -pl batch-persistence -P dev -D spring.sid=jtrustnew -D spring.profiles.active=dev hibernate-tools:hbm2java
+mvn clean -pl batch-persistence -P dev -D spring.sid=jtrustnew -D spring.profiles.active=dev hibernate-tools:hbm2java -e
+mvn clean -pl batch-persistence -P dev -D spring.sid=jtrustnew -D spring.profiles.active=dev hibernate-tools:hbm2java
+mvn clean -pl batch-persistence -P jtrustnew -D spring.sid=jtrustnew -D spring.profiles.active=dev hibernate-tools:hbm2java
+mvn clean -pl batch-persistence -P jtrustnew -D spring.sid=jtrustnew  hibernate-tools:hbm2java
+mvn org.hibernate.tool:hibernate-tools-maven:help -Ddetail=true -Dgoal=help
+mvn org.hibernate.tool:hibernate-tools-maven:help -D detail=true -D goal=help
+mvn org.hibernate.tool:hibernate-tools-maven:help -D detail=true 
+mvn clean -pl batch-persistence -P jtrustnew -D spring.sid=jtrustnew -D spring.profiles.active=dev hibernate-tools:hbm2java -
+mvn clean -pl batch-persistence -P jtrustnew -D spring.sid=jtrustnew -D spring.profiles.active=dev hibernate-tools:hbm2java
+mvn clean -pl batch-persistence -P dev -D spring.sid=jtrustnew -D spring.profiles.active=dev hibernate-tools:hbm2java
+mvn clean -pl batch-persistence -P jtrustnew -D spring.sid=jtrustnew -D spring.profiles.active=dev generate-sources
+mvn clean -pl batch-core -P dev   spring-boot:run
+docker start oracle-xe
+cd C:\workspace\
+cd .\Intesi\
+cd .\wkseclipse\
+cd .\jtrustbe-batch-master\
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev   spring-boot:run
+docker start oracle-xe
+cd C:\workspace\
+cd .\Intesi\wkseclipse\jtrustbe-batch-master\
+ls
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-core -P stage   package
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-core -P stage   package
+mvn clean -pl batch-core -P dev   package
+cd C:\Apps\batch.core-0.0.1
+.\bin\run.bat
+.\bin\runG1.bat
+cd C:\workspace\
+mkdir optimizerio
+cd .\optimizerio\
+touch .env
+move .\.env.txt .env
+lsl
+ls
+ls -al
+  docker pull concertio/optimizer-studio:2.15.0
+docker run --env-file ./.env --rm -ti --name optimize-studio concertio/optimizer-studio:2.14.0
+docker run --env-file ./.env --rm -ti --name optimize-studio concertio/optimizer-studio:2.15.0
+docker run -- env-file ./.env -- rm - ti -- name optimize-studio concertio/optimizer-studio:2.15.0
+ls -al
+ls -all
+ls 
+docker run -- env-file .env -- rm - ti -- name optimize-studio concertio/optimizer-studio:2.15.0
+docker run --env-file ./.env --rm -ti --name optimize-studio concertio/optimizer-studio:2.14.0
+ls
+docker stats
+docker run --env-file ./.env --rm -ti --name optimize-studio concertio/optimizer-studio:2.14.0
+docker run -- env-file ./.env -- rm - ti -- name optimize-studio concertio/optimizer-studio:2.14.0
+docker login
+docker run -- env-file ./.env -- rm - ti -- name optimize-studio concertio/optimizer-studio:2.14.0
+docker run -- env-file .env -- rm - ti -- name optimize-studio concertio/optimizer-studio:2.14.0
+docker run --env-file .env -- rm - ti -- name optimize-studio concertio/optimizer-studio:2.14.0
+docker run --env-file .env --rm -ti --name optimize-studio concertio/optimizer-studio:2.14.0
+docker run --env-file./.env --rm -ti --name optimize-studio concertio/optimizer-studio:2.14.0
+docker run --env-file=./.env --rm -ti --name optimize-studio concertio/optimizer-studio:2.14.0
+docker run --env-file ./.env --rm -ti --name optimize-studio concertio/optimizer-studio:2.14.0
+docker run --env-file=./.env --rm -ti --name optimize-studio concertio/optimizer-studio:2.14.0 bash
+docker stop oracle-xe
+cd C:\Apps\batch.core-0.0.1
+.\bin\run.bat
+docker start oracle-xe
+cd C:\workspace\
+cd .\Intesi\
+cd .\wkseclipse\
+cd .\jtrustbe-batch-master\
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-core -P stage   package
+mvn clean -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-core -P dev   spring-boot:run
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\
+cd .\Intesi\
+cd .\wkseclipse\
+cd .\jtrustbe-batch-master\
+mvn clean -pl batch-core -P stage   package
+mvn clean -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-core -P stage -D spring.profiles.active=stage  spring-boot:run
+mvn clean -pl batch-persistence -P stage package install
+mvn clean -pl batch-core -P stage -D spring.profiles.active=stage  spring-boot:run
+mvn clean -pl batch-core -P stage -Dspring.profiles.active=stage  spring-boot:run
+mvn clean -pl batch-core -P stage -D spring.profiles.active=stage  spring-boot:run
+ls
+ls .\batch-core\
+mvn clean -pl batch-core -P stage -D spring.profiles.active=stage  spring-boot:run
+mvn clean verify -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P stage -Dspring.profiles.active=stage  spring-boot:run
+mvn clean verify -pl batch-core -P stage -D spring.profiles.active=stage  spring-boot:run
+mvn clean verify -pl batch-core -P stage -D spring.pro  spring-boot:run
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+docker start oracle-xe
+cd C:\workspace\
+cd .\Intesi\
+cd .\wkseclipse\jtrustbe-batch-master\
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+exit
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-master\
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean verify -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean verify -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean verify -pl batch-persistence -P dev package install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean verify -pl batch-persistence -P dev package install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean verify -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P dev package install
+cd C:\workspace\docker-labs\sonarqube
+ls
+move .\docker-compose.yml.txt docker-compose.yml
+docker-compose
+docker-compose start
+docker-compose up
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+docker start oracle-xe
+cd C:\workspace\
+cd .\Intesi\
+cd .\wkseclipse\
+cd .\jtrustbe-batch-master\
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean verify -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean verify -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean verify -pl batch-persistence -P dev package install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean verify -pl batch-persistence -P dev package install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean verify -pl batch-persistence -P dev package install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean verify -pl batch-persistence -P dev package install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean verify -pl batch-persistence -P dev package install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean verify -pl batch-persistence -P dev package install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean verify -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+cd ..\jtrustbe-batch-branch-timeout\
+ls
+mvn verify
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-branch-timeout
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\Apps\neo4j-community-4.2.0
+.\bin\neo4j.bat console
+set JDK_HOME=C:\Apps\openjdk-14.0.1_windows-x64_bin\jdk-14.0.1
+.\bin\neo4j.bat console
+set JAVA_HOME=C:\Apps\openjdk-14.0.1_windows-x64_bin\jdk-14.0.1
+.\bin\neo4j.bat console
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\Apps\
+cd .\neo4j-etl-cli-1.5.0\
+ls
+.\importJtrustnewLocal.bat
+ls C:\Apps\.m2\repository\com\oracle\
+ls C:\Apps\.m2\repository\com\oracle\ojdbc\
+ls C:\Apps\.m2\repository\com\oracle\ojdbc\ojdbc8\
+ls C:\Apps\.m2\repository\com\oracle\ojdbc\ojdbc8\19.3.0.0\
+.\bin\neo4j-etl help generate-metadata-mapping
+.\bin\neo4j-etl.cmd help generate-metadata-mapping
+ls bin
+.\bin\neo4j-etl.cmd 
+.\bin\neo4j-etl.cmd help
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\
+cd .\Intesi\
+cd .\wkseclipse\
+ls
+cd .\jtrustbe-batch-branch-timeout\
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean verify -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean verify -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\docker-labs\sonarqube
+docker-compose up
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-branch-timeout
+mvn clean verify -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+docker-compose up
+mvn clean verify -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean verify -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean verify -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+docker-compose up
+docker-compose destroy
+docker-compose up
+wsl -d docker-desktop
+docker-compose up
+.\runSonar.bat
+.\runSonar.bat
+docker stop oracle-xe
+docker start oracle-xe
+docker stop oracle-xe
+docker start oracle-xe
+.\runSonar.bat
+mvn clean
+mvn clean verify
+.\runSonar.bat
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+.\runSonar.bat
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+cd C:\Apps\batch.core-0.0.1
+.\bin\run.bat
+dir bin
+.\bin\runG1.bat
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\
+cd .\Intesi\
+cd .\wkseclipse\
+cdcd .\jtrustbe\
+cd .\jtrustbe-batch-branch-timeout\
+cd C:\workspace\
+ls
+cd .\docker-labs\
+ls
+cd .\sonarqube\
+ls
+docker-compose up
+ls
+.\runSonar.bat
+ls
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+cd C:\Apps\batch.core-0.0.1
+.\bin\run.bat
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+.\bin\run.bat
+cd C:\Apps\
+git clone https://github.com/chewiebug/GCViewer.git
+cd .\GCViewer\
+mvn clean install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-branch-timeout\
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean verify -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P dev install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+ls
+.\runSonar.bat
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+.\bin\run.bat
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+.\bin\run.bat
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+.\bin\run.bat
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+.\bin\run.bat
+.\runSonar.bat
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-branch-timeout\
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+cd C:\Apps\batch.core-0.0.1`
+`
+`
+D`
+ls
+.\bin\run.bat
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+.\bin\run.bat
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+.\bin\run.bat
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+.\bin\run.bat
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+.\bin\run.bat
+java -verbose:gc -version
+java -XX:+PrintFlagsFinal -version
+java -XX:+PrintFlagsFinal -version | findstr HeapSize
+mvn clean verify -pl batch-core -P stage   package
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P jtrustnew -D spring.sid=jtrustnew -D spring.profiles.active=stage generate-sources
+mvn clean -pl batch-persistence -P stage install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+.\bin\run.bat
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+docker stop oracle-xe
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-branch-timeout\batch-persistence
+cd ..
+mvn org.hibernate.tool:hibernate-tools-maven:help -Ddetail=true -Dgoal=hbm2java 
+hibernate-tools:hbm2java
+mvn org.hibernate.tool:hibernate-tools-maven:help -D detail=true -D goal=hbm2java 
+mvn clean -pl batch-persistence -P jtrustnew -D spring.sid=jtrustnew -D spring.profiles.active=stage hibernate-tools:hbm2java
+mvn clean -pl batch-persistence -P jtrustnew,stage -D spring.sid=jtrustnew -D spring.profiles.active=stage hibernate-tools:hbm2java
+mvn clean -pl batch-persistence -P stage -D spring.sid=jtrustnew -D spring.profiles.active=stage hibernate-tools:hbm2java
+mvn clean -pl batch-persistence -P jtrustnew,stage -D spring.sid=jtrustnew -D spring.profiles.active=stage generate-sources
+docker start oracle-xe
+mvn clean -pl batch-persistence -P stage install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage install
+mvn clean -pl batch-persistence -P dev install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P stage install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P dev install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P dev install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P dev install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+cd C:\workspace\
+cd .\Intesi\
+cd .\wkseclipse\
+cd .\jtrustbe-batch-branch-timeout\
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P dev install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P dev install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P stage install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-master
+mvn verify -P dev
+mvn clean -pl batch-persistence -P dev package install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean -pl batch-persistence -P dev package install
+mvn clean verify -pl batch-core -P dev   spring-boot:run
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+cd C:\workspace\Intesi\wkseclipse\
+ls
+cd .\jtrustbe-batch-master\
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage package install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P inr -D spring.sid=inr -D spring.profiles.active=stage generate-sources
+mvn clean -pl batch-persistence -P dev package install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage  install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+mvn clean -pl batch-persistence -P stage  install
+mvn clean verify -pl batch-core -P stage   spring-boot:run
+docker stop oracle-xe
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-master\
+mvn clean -pl batch-core -P stage spring-boot:run
+mvn clean -pl batch-core -P stage install
+cd C:\Apps\batch.core-0.0.1
+.\bin\run.bat
+mvn clean -pl batch-core -P stage install
+.\bin\run.bat
+mvn clean -pl batch-core -P stage install
+.\bin\run.bat
+mvn clean -pl batch-core -P stage install
+.\bin\run.bat
+cd C:\workspace\
+cd .\Intesi\wkseclipse\jtrustbe-batch-master\
+mvn clean -pl batch-core -P stage install
+docker start oracle-xe
+.\bin\run.bat
+docker stop oracle-xe
+cd C:\workspace\docker-labs\sonarqube
+docker-compose up
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-master
+history | grep sonar
+mvn clean -pl batch-core -P dev    sonar:sonar
+wsl -d docker-desktop
+docker-compose up
+mvn clean -pl batch-core -P dev    sonar:sonar
+mvn verify
+mvn     sonar:sonar
+docker stop oracle-xe
+docker start oracle-xe
+mvn     sonar:sonar
+mvn clean -pl batch-persistence -P stage  package
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-master
+mvn clean -pl batch-persistence -P dev  install
+mvn clean -pl batch-core -P dev spring-boot:run
+mvn clean -pl batch-persistence -P dev  install
+mvn clean -pl batch-core -P dev install
+mvn clean -pl batch-persistence -P stage  install
+mvn clean -pl batch-core -P stage install
+cd C:\Apps\batch.core-0.0.1\bin
+cd ..
+.\bin\run.bat
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-master
+mvn clean -pl batch-persistence -P stage  install
+mvn clean -pl batch-core -P stage install
+mvn clean -pl batch-persistence -P stage  install
+mvn clean -pl batch-core -P stage install
+.\bin\run.bat
+jpid
+java -version
+docker stop oracle-xe
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-master
+mvn clean -pl batch-persistence -P stage  install
+mvn clean -pl batch-core -P stage spring-boot:run
+mvn clean -pl batch-persistence -P stage  install
+mvn clean -pl batch-core -P stage spring-boot:run
+mvn clean -pl batch-persistence -P stage  install
+mvn clean -pl batch-core -P stage spring-boot:run
+mvn clean -pl batch-core -P stage package
+cd C:\Apps\commons-daemon-1.2.3-bin-windows
+ls
+.\prunmgr.exe
+taskkill
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-master
+mvn clean -pl batch-core -P dev spring-boot:run
+mvn clean -pl batch-core -P dev package
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-master
+mvn clean -pl batch-core -P dev package
+docker start oracle-xe
+docker stop oracle-xe
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-master\
+mvn clean -pl batch-core -P dev package
+docker start oracle-xe
+cd C:\Apps\batch.core-0.0.1
+ls
+.\intesiBatchService.bat status
+.\intesiBatchService.bat start
+docker start oracle-xe
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-master\batch-core
+cd ..
+mvn clean -pl batch-core -P dev spring-boot:run
+mvn clean -pl batch-core -P dev spring-boot:run -Doracle.jdbc.Trace=true
+mvn clean -pl batch-core -P dev spring-boot:run -D oracle.jdbc.Trace=true
+mvn clean -pl batch-persistence -P dev  install
+mvn clean -pl batch-core -P dev spring-boot:run -D oracle.jdbc.Trace=true
+mvn clean -pl batch-persistence -P dev  install
+mvn clean -pl batch-core -P dev spring-boot:run -D oracle.jdbc.Trace=true
+mvn clean -pl batch-persistence -P dev  install
+mvn clean -pl batch-persistence -P dev verify install
+mvn clean -pl batch-core -P dev spring-boot:run -D oracle.jdbc.Trace=true
+mvn clean -pl batch-core -P dev spring-boot:run -D oracle.jdbc.Trace=true -D java.util.logging.config.file=config/OracleLog.properties
+mvn clean -pl batch-core -P dev spring-boot:run -D oracle.jdbc.Trace=true -D java.util.logging.config.file=./config/OracleLog.properties
+mvn clean -pl batch-core -P dev spring-boot:run -D oracle.jdbc.Trace=true -D java.util.logging.config.file=/config/OracleLog.properties
+ls .\logs\
+ls .\batch-core\logs\
+mvn clean -pl batch-core -P dev spring-boot:run -D oracle.jdbc.Trace=true -D java.util.logging.config.file=config/OracleLog.properties
+mvn clean -pl batch-core -P dev spring-boot:run 
+docker stop oracle-xe
+ls
+ls .\batch-core\
+ls .\batch-core\logs\
+mvn clean -pl batch-core -P dev spring-boot:run 
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-master\
+ls
+docker start oracle-xe
+mvn clean -pl batch-core -P dev spring-boot:run -D oracle.jdbc.Trace=true -D java.util.logging.config.file=config/OracleLog.properties
+ls .\logs\
+ls .\batch-core\
+ls .\batch-core\logs\
+mvn clean -pl batch-core -P dev spring-boot:run -D oracle.jdbc.Trace=true -D java.util.logging.config.file=config\OracleLog.properties
+cd C:\workspace\Intesi\wkseclipse\jtrustbe-batch-master-albe
+mvn verify
+mvn clean -pl batch-persistence -P dev verify install
+mvn clean -pl batch-core -P dev spring-boot:run -D oracle.jdbc.Trace=true -D java.util.logging.config.file=config\OracleLog.properties
+cd ..
+ls
+cd ..
+ls
+cd .\wksbatch\
+ls
+cd .\jtrustbe-batch-master-albe\
+mvn verify
+mvn clean -pl batch-core -P dev spring-boot:run -D oracle.jdbc.Trace=true -D java.util.logging.config.file=config\OracleLog.properties
+mvn clean -pl batch-core -P stage
+mvn clean -pl batch-core -P stage package
+cd C:\workspace\Intesi\wksbatch\jtrustbe-batch-master-albe
+mvn clean -pl batch-core -P stage package
+cd C:\workspace\Intesi\wksbatch\jtrustbe-batch-master-albe
+mvn clean -pl batch-persistence -P stage verify install
+mvn clean -pl batch-core -P stage package
+docker start oracle-xe
+cd C:\workspace\
+cd .\Intesi\
+cd .\wksbatch\
+ls
+cd .\jtrustbe-batch-master-albe\
+ls
+mvn clean -pl batch-core -P dev spring-boot:run 
+docker start oracle-xe
+mvn clean -pl batch-core -P dev spring-boot:run 
+docker start oracle-xe
+cd C:\workspace\
+cd .\Intesi\
+cd .\wksbatch\
+ls
+cd .\jtrustbe-batch-master-albe\
+mvn clean -pl batch-core -P dev spring-boot:run 
+cd ..
+cd .\wkseclipse\
+cd .\jtrustbe-batch-master\
+mvn clean -pl batch-persistence -P dev verify install
+mvn clean -pl batch-core -P dev spring-boot:run 
+mvn clean -pl batch-persistence -P dev verify install
+mvn clean -pl batch-core -P dev spring-boot:run 
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\Intesi\wksbatch\jtrustbe-batch-master-albe
+mvn clean -pl batch-persistence -P dev verify install
+mvn clean -pl batch-core -P dev spring-boot:run 
+mvn clean -pl batch-persistence -P dev verify install
+mvn clean -pl batch-core -P dev spring-boot:run 
+cd C:\workspace\Intesi\wksbatch\jtrustbe-batch-master-albe
+mvn clean -pl batch-persistence -P dev verify install
+mvn clean -pl batch-core -P dev verify package
+cd C:\workspace\Intesi\batch.core-0.0.1
+ls
+.\intesiBatchService.bat install
+.\intesiBatchService.bat uninstall
+.\intesiBatchService.bat install
+cd C:\workspace\
+cd .\Intesi\
+cd wo
+ls
+cd .\wkseclipse\
+ls
+cd .\jtrustbe-batch-master\
+ls
+mvn clean -pl batch-persistence -P dev verify install
+mvn clean -pl batch-core -P dev package
+cd ..
+cd C:\workspace\Intesi\wksbatch\
+ls
+cd .\jtrustbe-batch-master-albe\
+mvn clean -pl batch-core -P dev package
+mvn clean -pl batch-core -P dev verify package
+ls
+mvn clean -pl batch-core -P dev spring-boot:run 
+ls
+mvn verify -P dev
+mvn clean -pl batch-core -P dev verify package
+mvn clean -pl batch-core -P dev verpackage
+mvn clean verify -pl batch-core -P dev package
+mvn clean -pl batch-persistence -P dev install
+mvn clean  -pl batch-core -P dev package
+.\intesiBatchService.bat uninstall
+mvn clean  -pl batch-core -P dev package
+.\intesiBatchService.bat install
+docker stop oracle-xe
+docker start oracle-xe
+docker stop oracle-xe
+docker start oracle-xe
+cd C:\workspace\Intesi\wksbatch\jtrustbe-batch-master-albe
+mvn clean -pl batch-persistence -P dev install
+mvn clean  -pl batch-core -P dev package
+cd C:\Apps\batch.core-0.0.1\batch.core-0.0.1
+.\intesiBatchService.bat install
+.\intesiBatchService.bat uninstall
+.\intesiBatchService.bat install
+.\intesiBatchService.bat uninstall
+.\intesiBatchService.bat install
+.\intesiBatchService.bat status
+mvn clean  -pl batch-core -P dev package
+docker stop oracle-xe
+cd C:\workspace\Intesi\wksticketbatch\jTrustBe_Batch
+ls
+ls -al
+ls -all
+ls 
+dir
+cd ..
+ls .git
+ls
+cd .\jTrustBe_Batch\
+lsl
+ls
+dir
+cd C:\workspace\
+cd .\Intesi\
+ls
+docker start oracle-xe
+docker stop oracle-xe
+docker start oracle-xe
+C:\workspace\Intesi\wksbatch\jtrustbe-batch-master-albe\batch-core\src\test
+cd C:\workspace\Intesi\wksbatch\jtrustbe-batch-master-albe\batch-core\src\test
+cd ..
+mvn -pl batch-core -Dtest=SpringBatchIntegrationTest#givenReferenceOutput_whenJobExecuted_thenSuccess test
+mvn -pl batch-core -P dev -Dtest=SpringBatchIntegrationTest#givenReferenceOutput_whenJobExecuted_thenSuccess test
+mvn -pl batch-core -P test -Dtest=SpringBatchIntegrationTest#givenReferenceOutput_whenJobExecuted_thenSuccess test
+mvn clean -pl batch-core -P dev spring-boot:run 
+mvn -pl batch-core -P test -Dtest=SpringBatchIntegrationTest#givenReferenceOutput_whenJobExecuted_thenSuccess test
+mvn clean -pl batch-core -P test -Dtest=SpringBatchIntegrationTest#givenReferenceOutput_whenJobExecuted_thenSuccess test
+mvn -pl batch-core -P test -Dtest=SpringBatchIntegrationTest#givenReferenceOutput_whenJobExecuted_thenSuccess test
+mvn clean -pl batch-core -P test -Dtest=SpringBatchIntegrationTest#givenReferenceOutput_whenJobExecuted_thenSuccess test
+mvn clean -pl batch-core -P dev spring-boot:run 
+mvn clean -pl batch-core -P test -Dtest=SpringBatchIntegrationTest#givenReferenceOutput_whenJobExecuted_thenSuccess test
+docker stop oracle-xe
+cd C:\workspace\Intesi\wksbatch\jtrustbe-batch-master-albe
+mvn clean -pl batch-core -P test -Dtest=SpringBatchIntegrationTest#whenBtTicketImportJobExecuted_thenSuccess test
+docker stop oracle-xe
+docker start oracle-xe
+mvn clean -pl batch-core -P test -Dtest=SpringBatchIntegrationTest#whenBtTicketImportJobExecuted_thenSuccess test
+mvn clean -pl batch-core -P test -D test=SpringBatchIntegrationTest#whenBtTicketImportJobExecuted_thenSuccess test
+mvn clean -pl batch-core -P test -D test=SpringBatchIntegrationTest test
+mvn clean -pl batch-core -P test  test
+docker start oracle-xe 
+mvn clean -pl batch-core -P test  test
+mvn clean -pl batch-core -P test -D test=SpringBatchIntegrationTest test
+mvn clean -pl batch-core -P test  test
+mvn clean -pl batch-core -P test -D test=SpringBatchIntegrationTest test
+git init
+ls
+ls .\batch-core\
+touch .gitignore
+function touch {New-Item "$args" -ItemType File}
+. $profile
+cd ~
+. $profile
+.$profile
+cd C:\workspace\
+cd cd .\Intesi\
+cd .\Intesi\
+cd .\wksbatch\
+ls
+cd .\jtrustbe-batch-master-albe\
+ls
+touch .gitignore
+notepad .gitignore
+git status
+git add .
+git config --global core.autocrlf true
+git add --renormalize .
+git status
+git commit -m "baseline"
+git remote add origin https://csini@bitbucket.org/csini/spring-batch-wfm.git
+git push -u origin --all
+git pull
+git push -u origin --all
+git pull origin
+git pull origin master
+git push -u origin --all
+git branch -help
+git branch --all
+git branch -d remotes/origin/master
+git push -u origin --all
+git pull origin
+git pull origin/master
+git remote -h
+git remote show
+git pull -h
+git pull origin
+git pull origin master
+git pull origin master --allow-unrelated-histories
+git status
+git commit -m "baseline"
+git add .gitignore
+git status
+git commit -m "baseline"
+git push -u origin --all
+cd C:\workspace\Intesi\wksbatch\jtrustbe-batch-master-albe
+ls
+mvn -v
+mvn clean -pl batch-core -P dev package
+cd C:\Apps\batch.core-0.0.1
+java -version
+.\bin\run.bat
+docker start oracle-xe
+.\bin\run.bat
+docker stop oracle-xe
+cd C:\workspace\
+mkdir synbrain
+cd .\synbrain\
+git clone git@corporate-gitlab.gigroup.com:girex/modules/batch/girex4-batch-my-gig-ita.git
+git clone http://corporate-gitlab.gigroup.com/girex/modules/batch/girex4-batch-my-gig-ita.git
+dir
+cd '.\girex4-batch-my-gig-ita\'
+git chekout -b develop origin/develop
+git checkout -b develop origin/develop
+git status
+cd ..
+git clone http://corporate-gitlab.gigroup.com/gibatch/utils.git
+c ..
+cd ..
+cd .\synbrain\
+git clone http://corporate-gitlab.gigroup.com/gibatch/importtaxmodule.git
+cd ..
+cd .\synbrain\
+git clone http://corporate-gitlab.gigroup.com/gibatch/importpaysplip.git
+git clone http://corporate-gitlab.gigroup.com/gibatch/linkedinapplications.git
+cd C:\workspace\synbrain
+ls
+cd .\importtaxmodule\
+ls
+mvn verify -D spring.profiles.active=dev
+java -version
+mvn verify -D spring.profiles.active=dev -X
+mvn verify -D spring.profiles.active=dev
+mvn clean verify -D spring.profiles.active=dev
+mvn clean verify -D spring.profiles.active=dev -e
+mvn clean verify -D spring.profiles.active=dev
+echo %JDK_HOME%
+mvn versions:display-plugin-updates
+mvn clean verify -D spring.profiles.active=dev
+mvn -version
+mvn versions:display-plugin-updates
+mvn -version
+set JAVA_HOME=C:\Apps\openjdk-14.0.1_windows-x64_bin\jdk-14.0.1
+mvn -version
+echo %JDK_HOME%
+set JDK_HOME=C:\Apps\openjdk-14.0.1_windows-x64_bin\jdk-14.0.1
+echo %JDK_HOME%
+set JAVA_HOME C:\Apps\openjdk-14.0.1_windows-x64_bin\jdk-14.0.1
+echo %JDK_HOME%
+echo %JAVA_HOME%
+ Set-Variable -Name "JAVA_HOME" -Value "C:\Apps\openjdk-14.0.1_windows-x64_bin\jdk-14.0.1"
+mvn -version
+ Set-Variable -Name "JDK_HOME" -Value "C:\Apps\openjdk-14.0.1_windows-x64_bin\jdk-14.0.1"
+mvn -version
+docker ps -a
+cd C:\workspace\synbrain\jobAlert
+mvn clean install
+..\env.bat
+docker images
+..\env.bat
+docker build -t sitmijen05.gigroup.local:8445/repository/test-docker/batch-job-alert
+docker build -t sitmijen05.gigroup.local:8445/repository/test-docker/batch-job-alert .
+mvn clean install
+..\env.bat
+mvn clean install
+..\env.bat
+mvn clean install
+docker build -t sitmijen05.gigroup.local:8445/repository/test-docker/batch-job-alert .
+docker login sitmijen05.gigroup.local:8445
+cd C:\workspace\synbrain\jobAlert
+mvn clean install
+..\env.bat
+mvn clean install
+docker build -t sitmijen05.gigroup.local:8445/repository/test-docker/batch-job-alert .
+cd C:\workspace\synbrain\importtaxmodule
+..\env.bat
+mvn clean verify
+..\env.bat
+mvn clean verify
+kubectl exec -i -t -n default batchimportcu-schedule-manual-ia71j-6flw7 -c batchimportcu-task "--" sh -c "clear; (bash || ash || sh)"
+kubectl exec -i -t -n default batchimportcu-schedule-manual-63jyu-nxhtq -c batchimportcu-task "--" sh -c "clear; (bash || ash || sh)"
+kubectl exec -i -t -n default batchimportcu-schedule-manual-r2c6s-jtnrl -c batchimportcu-task "--" sh -c "clear; (bash || ash || sh)"
+kubectl exec -i -t -n default batchimportcu-schedule-02-manual-eiaju-pd9k9 -c batchimportcu-task-02 "--" sh -c "clear; (bash || ash || sh)"
+Test-NetConnection -ComputerName localhost -Port 2375
+Test-NetConnection -ComputerName 192.168.65.0/28 -Port 2375
+wsl
+wsl -l --verbose
+netstat -an
+netstat -an ! grep 2375
+netstat -an | Select-String -Pattern "2375"
+netstat -an
+netstat -an | Select-String -Pattern "192"
+netstat -an | Select-String -Pattern "192.168"
+netstat
+netstat -h
+netstat -f -o
+Get-Process -Id 7348
+netstat -f -o
+netstat -an | Select-String -Pattern "192.168.65"
+netstat -an | Select-String -Pattern "192.168"
+wls -h
+wsl -h
+wsl
+netstat -an | Select-String -Pattern "192.168.65"
+netstat -an | Select-String -Pattern "192"
+netstat -an | Select-String -Pattern "2375"
+wsl hostname -I
+cd /
+wsl hostname -I
+wsl hostname -i
+wsl hostname -h
+wsl -h
+wsl -l
+wsl docker-desktop-data -I
+wsl2
+wsl ls
+wsl --version
+wsl version
+wsl hostname -I
+wsl start
+wsl -l -v
+wsl -d docker-desktop-data hostname -I
+wsl -d "docker-desktop-data" hostname -I
+ping 172.20.0.2
+ifconfig
+ipconfig
+wsl -l
+wsl --help
+wsl
+wsl -e ls
+cd C:\Users\cicit\OneDrive\Documenti\Me
+Select-String -Path *.txt -pattern ed
+Select-String -Path *.txt -pattern 900
+curl
+curl --location --request POST 'http://localhost:8080/loginmobile' \`
+--header 'Content-Type: application/json' \`
+--data-raw '[`
+    {`
+        "username": "cisini",`
+        "password": "UThpdGFsaWEx"`
+    }`
+]'
+`
+curl --location --request POST 'http://localhost:8080/loginmobile' --header 'Content-Type: application/json' --data-raw '[{"username": "cisini","password": "UThpdGFsaWEx"}]'
+`
+curl --location --request POST 'http://localhost:8080/loginmobile' --header 'Content-Type: application/json' --data-raw '[{\"username\": \"cisini\",\"password\": \"UThpdGFsaWEx\"}]'
+npm-windows-upgrade
+   Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
+npm-windows-upgrade
+cd \workspace
+npm-windows-upgrade
+npm install -g npm
+npm install npm@latest -g
+npm install npm-cli
+npm install npm@latest -g
+unblock-file -path "C:\Program Files (x86)\Nodist\bin\nodist.ps1"unblock-file -path "C:\Program Files (x86)\Nodist\bin\nodist.ps1"
+wsl --update
+wsl --shutdown
+wsl2 --update
+wsl --help
+wsl -l
+wsl -l -v
+wsl --set-version Ubuntu 2
+wsl -l -v
+wsl update
+wsl --update
+wsl2 --update
+wsl -l -v
+winget search Microsoft.PowerShell
+winget list --id Microsoft.PowerShell --upgrade-available
+wsl --version
+wsl hostname -I
+wsl2 hostname -I
+wsl2 hostname -Iwsl -d Ubuntu 22.04.5 LTS  hostname -i
+wsl hostname -Iwsl -d Ubuntu 22.04.5 LTS  hostname -i
+wsl hostname -Iwsl -d Ubuntu LTS  hostname -i
+wsl --update --pre-release
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all
+wsl --set-default-version 2
+hostname --ip-addresses
+ip route show | grep -i default | awk '{ print $3}'``
+
+wsl hostname -i 
+wsl2 hostname -i 
+wsl --version
+systemctl status 
+wsl --list --verbose
+wsl --set-default-version 2
+wsl2 -v
+wsl --version
+ls
+wsl hostname -I
+wsl --version
+wsl hostname -h
+wsl hostname -help
+wsl --list --verbose
+wsl --list -v
+cd ~
+ls -all
+dir
+wsl --shutdown
+compact /C %temp% /i /Q
+ubuntu
+wsl --install -d Ubuntu-24.04
+wsl --shutdown
+docker
+wsl --shutdown
+wsl --list 
+wsl -l -v
+wsl --update
+wsl --status
+wsl -h
+wsl --help
+wsl --list 
+wsl --distribution Ubuntu-24.04
+wsl --list 
+wsl --distribution Ubuntu-24.04 --user cicit
+wsl --distribution Ubuntu --user cicit
+wsl --distribution Ubuntu
+wsl --distribution Ubuntu  --user cg70040
+wsl --list 
+exit
+wsl -version
+wsl --version
+wsl -l
+wsl -hostname -I
+wsl --help
+wsl hostname
+wsl hostname -I
+wsl --list 
+wsl -u root
+wsl --update
+wsl --shutdown
+wsl
+wsl --version
+cd ~
+wsl terminate 24.04
+wsl --terminate 24.04
+wsl --terminate "Ubuntu 24.04"
+wsl --terminate Ubuntu 24.04
+wsl --stop Ubuntu 24.04
+wsl --help
+wsl --list -v
+wsl --stop Ubuntu-24.04
+wsl --terminate Ubuntu-24.04
+wsl --list -v
+wsl --start Ubuntu-24.04
+wsl Ubuntu-24.04
+wsl -version
+wsl --version
+wsl --update
+ls ~
+dir %UserProfile%
+dir "%UserProfile%"
+dir echo %UserProfile%
+cd  %UserProfile%
+echo  %UserProfile%
+ls wslcon*
+ls wslconfig.conf
+ls
+dir .wslconfig
+cat .wslconfig
+wsl --shutdown
+wsl
+exit
+wsll --shutdown
+wsl --shutdown
+wsl --list
+wsl --unregister Ubuntu-24.04
+wsl --list
+wsl --unregister Ubuntu-24.04
+wsl --list
+ls
+ls .\Downloads\
+ls C:\Users\cicit\Downloads\Vivaldi
+wsl --install --from-file C:\Users\cicit\Downloads\Vivaldi\Ubuntu2404-250130_x64.wsl
+dir
+winget install JanDeDobbeleer.OhMyPosh
+winget install XP8K0HKJFRXGCK
+winget upgrade oh-my-posh
+notepad $PROFILE
+new-item -type file -path $profile -force
+notepad Microsoft.PowerShell_profile.ps1
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\paradox.omp.json" | Invoke-Expression
+dir
+cat .\Microsoft.PowerShell_profile.ps1
+echo $profile
+notepad $profile
+ls
+notepad $profile
+exit
+oh-my-posh get shell
+notepad $PROFILE
+Install-NerdFont -Name 'Hack'
+Install-NerdFont -Name 'octicons'
+Install-PSResource -Name NerdFonts
+PSModule NerdFonts
+$psversiontable
+Install-Module NerdFonts
+Start-Process PowerShell -Verb RunAs
+ls
+dir
+pwd
+su
+PSModule NerdFonts
+Install-PSResource -Name NerdFonts
+Install-NerdFont -Name 'FiraCode'
+Install-PSResource -Name NerdFonts
+# (A) You've never installed posh-git from the PowerShell Gallery
+PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
+Import-Module posh-git
+$PSHOME
+$HOME\Documents\WindowsPowerShell\
+dir $HOME\Documents\WindowsPowerShell\
+dir $HOME\Documents\
+dir $HOME\
+$Profile
+$Profile | Get-Member -MemberType NoteProperty
+$Profile
+Notepad $Profile
+Import-Module posh-git
+cd ~\Desktop
+pwd
+ls pwd
+dir pwd
+pwd
+dir
+mkdir Desktop
+cd .\Desktop\
+mkdir hello_git
+cd .\hello_git\
+git init
+git status
+notepad $profile.CurrentUserAllHosts
+pwd
+git fetch
+pwd
+cd .\Desktop\
+dir
+cd .\hello_git\
+git fetch
+dirls
+dir
+pwd
+exit
+dir
+pwd
+notepad settings.json
+oh-my-posh font install meslo
+oh-my-posh font install noto
+exit
+ping google.com
+wsl -update
+wsl --help
+wsl --v --update
+wsl  --update
+wsl shutdown
+wsl --shutdown
+ubuntu
+mariadb -u root -p
+cd C:\Apps\mariadb-12.0.2-winx64\bin
+./mysql_install_db.exe
+./mysqld.exe --standalone --Verbose
+pwd
+ls
+bin\mariadb -u root -p
+bin\mariadb -u root -p Deianira$01!
+cd bin
+mysql stop
+mysqld --help
+mariadb-install-db.exe --datadir=C:\workspace\databases\mariadb\data --password=Deianira.01
+winget search Microsoft.PowerShell
+wsl --install
+wsl --list --online
+wsl.exe --install --no-distribution
+wsl --list --online
+wsl.exe --list --online
+wsl.exe --install Ubuntu-24.04
+wsl.exe --list --verbose
+wsl --update
+wsl -d "Ubuntu-24.04"
+wsl.exe --list --verbose
+wsl --help
+wsl.exe --list --verbose
+wsl.exe --list
+wsl --distribution Ubuntu-24.04
+wsl --install
+wsl --install -dUbuntu-24.04
+wsl --install -d Ubuntu-24.04
+wsl --update -d Ubuntu-24.04
+wsl.exe --distribution Ubuntu-24.04
+Systeminfo.exe
+wsl update
+wsl --update
+wsl -u root
+wsl --list
+wsl.exe -v
+wsl.exe --update
+wsl --set-default-version 2
+wsl.exe --install --no-distribution
+wsl --update
+wsl --shutdown
+wsl.exe --update
+$PSVersionTable
+Control Panel/System and Security/System/Advanced system settings
+git
+version
+foreach ($i in 1..100) { `
+    Start-Sleep -Milliseconds 10`
+    Write-Progress -Activity Test -Status $i% -PercentComplete $i`
+}
+ls
+gedit
+wsl -d "Ubuntu-24.04"
+cd C:\Users\cicit\
+wsl -d "Ubuntu-24.04"
+cd ~
+wsl -d "Ubuntu-24.04"
+wsl --list
+cd ..
+wsl --list
+winget upgrade powershell -h
+winget update powershell -h
+winget update powershell
+winget upgrade powershell
+winget upgrade --all
+winget upgrade powershell
+winget install --id Microsoft.PowerShell --source winget
+cd ~
+wsl -h
+wsl --help
+wsl --list
+wsl -d
+id
+wsl
+wsl.exe --list --online
+wsl.exe --list --verbose
+wsl --distribution Ubuntu-22.04 ~
+wsl --distribution Ubuntu-24.04 ~
+ls /home
+wsl ~
+wsl --update
+wsl
+wsl 
+wsl ~
+wsl --list 
+wsl --install Ubuntu-24.04
+wsl --update Ubuntu-24.04
+wsl --help
+wsl --uninstall Ubuntu-24.04
+wsl --install Ubuntu-24.04
+wsl --install --distribution Ubuntu-24.04
+wsl --distribution Ubuntu-22.04 ~
+wsl --install --distribution Ubuntu-24.04
+sudo nano /etc/apt/sources.list
+git clone https://github.com/sunsetsacoustic/StemLab.git
+cd StemLab
+ls
+.\rebuild_cpu_robust.bat
+C:\Python38\python.exe -m pip install --upgrade pip
+C:\Python38\python.exe -m pip install --upgrade pip --user
+ls dist
+ls
+.\rebuild_cpu_robust.bat
+ls
+cat .\README.md
+wsl --install Ubuntu-24.04
+wsl ~
+pwd
+cd ..
+sudo apt install python3
+wsl
+wsl --list
+wsl --help
+wsl --list
+wsl --install --distribution Ubuntu-24.04
+sudo apt update
+sportify
+sportify.exe
+pwd sportify
+ls
+winget
+winget search --id Microsoft.PowerShell
+winget install --id Microsoft.PowerShell --source winget
+winget install --id Microsoft.PowerShell.Preview --source winget
+cd %Home%
+ls
+cd ..
+mkdir scripts
+cd .\scripts\
+rclone config
+rclone mount driveWF: Z: --vfs-cache-mode full
+rclone mount driveWF: Z: --vfs-cache-mode --link full
+rclone mount driveWF: Z: --vfs-cache-mode full --link
+rclone mount C:\Users\cicit\.drives\google\driveWAP: --vfs-cache-mode full
+rclone mount driveWAP C:\Users\cicit\.drives\google\driveWAP: --vfs-cache-mode full
+rclone mount driveWAP: C:\Users\cicit\.drives\google\driveWAP: --vfs-cache-mode full
+rclone mount driveWAP: C/:\Users\cicit\.drives\google\driveWAP: --vfs-cache-mode full
+rclone mount driveWAP: \Users\cicit\.drives\google\driveWAP: --vfs-cache-mode full
+rclone mount driveWAP: \Users\cicit\.drives\google\driveWAP --vfs-cache-mode full
+rclone mount driveWAP: C:\Users\cicit\.drives\google\driveWAP --vfs-cache-mode full
+rclone mount driveWAP: C:\Users\cicit\.drives\google\driveWAP --vfs-cache-mode full --vfs-link -vv
+rclone mount driveWAP: C:\Users\cicit\.drives\google\driveWAP --vfs-cache-mode full --vfs-links -vv
+rclone mount driveWAP: C:\Users\cicit\.drives\google\driveWAP --vfs-cache-mode full --vfs-links
+cd ~
+ls
+python
+pip install pandas xlsxwriter
+ls
+cd \Users
+cd C:\Users
+cd cicit
+mkdir .python
+cd .\.python\
+pip install pandas xlsxwriter
+cd ..\..
+cd googledrive
+rclone config
+rclone mount driveWAP: C:\Users\cicit\.drives\google\ --vfs-cache-mode full --vfs-links
+rclone mount driveWAP: C:\Users\cicit\.drives\google\driveWAP --vfs-cache-mode full --vfs-links
+ls
+rclone mount driveWAP: C:\Users\cicit\.drives\google\driveWAP --vfs-cache-mode full --vfs-links
+mkdir -p C:\Users\cicit\.vivaldi\cert\x.509.certvivaldi.crt
+ls
+cd ~
+cd Users\cicit
+cd ~
+cd .\Vivaldi\
+ls
+cd cert
+ls
+touch X.509.Cert-Vivaldi.crt
+$PROFILE
+gedit C:\Users\cicit\OneDrive\Documenti\PowerShell\Microsoft.PowerShell_profile.ps1
+namo C:\Users\cicit\OneDrive\Documenti\PowerShell\Microsoft.PowerShell_profile.ps1
+nano C:\Users\cicit\OneDrive\Documenti\PowerShell\Microsoft.PowerShell_profile.ps1
+notepad C:\Users\cicit\OneDrive\Documenti\PowerShell\Microsoft.PowerShell_profile.ps1
+ls C:\Users\cicit\OneDrive\Documenti\PowerShell\Microsoft.PowerShell_profile.ps1
+$PROFILE
+ls C:\Users\cicit\OneDrive\Documenti\PowerShell\
+ls C:\Users\cicit\OneDrive\Documenti\
+Get-ChildItem -Recurse -Filter *congenial* | Select-Object FullName
+setting font size
+font size
+ls
+python
+python --version
+pip install pandas xlsxwriter
+pip --help
+cd ~Ignoring invalid distribution - (c:\python38\lib\site-packages)ls
+ls
+pip install
+pip help install
+pip -r .\requirements.txt
+pip install -r requirements.txt --upgrade
+pip install -r requirements.txt --upgrade --user
+pip install
+pip install -r requirements.txt --upgrade --user
+cd ~
+mkdir Vault
+cd Vault
+Kleopatra passphrase
+Lard9-Reformed8-Borrowing0-Garland1-Fondly0Kleopatra passphrase
+mkdir inboxKleopatra passphrase
+Lard9-Reformed8-Borrowing0-Garland1-Fondly0
+ls
+mkdir inbox
+ls
+mkdir outbox
+mkdir tools
+cd tools
+touch cz-encrypt.ps1
+notepad
+cp E:\Vault\tools\cz-encrypt.ps1 
+ls
+.\cz-encrypt.ps1
+gpg --help
+ls
+.\cz-encrypt.ps1 "ciccittu@franzisku.slmail.me" shades.gpg
+.\cz-encrypt.ps1 "ciccittu@franzisku.slmail.me" .\shades.gpg
+.\cz-encrypt.ps1 "ciccittu@franzisku.slmail.me" ".\shades.gpg"
+.\cz-encrypt.ps1 ciccittu@franzisku.slmail.me ..\outbox\shades.gpg
+gpg --encrypt --sign --recipient $Recipient ciccittu@franzisku.slmail.me --output shades.gpg
+ls
+gpg --encrypt --sign --recipient ciccittu@franzisku.slmail.me --output shades.gpg
+ls ..\inbox\
+ls E:\Vault\inbox\
+ls E:\
+ls E:\Vault\inbox\
+ls E:\Vault\inbox\AppsData.json
+.\cz-encrypt.ps1 ciccittu@franzisku.slmail.me E:\Vault\inbox\AppsData.json
+ls
+rm .\shades.gpg
+.\cz-encrypt.ps1 ciccittu@franzisku.slmail.me E:\Vault\inbox\AppsData.json
+cd ..
+cd .\Vault\
+ls
+ls .\inbox\
+gpg --help
+pwd
+cd .\Crypt\
+ls
+cd Vault
+ls
+ls .\inbox\
+ls .\inbox\AppsData.json
+cat .\inbox\AppsData.json
+termux
+ls
+cat .\README.md
+ls
+ls
+gradlew
+.\gradlew
+.\bin\avdmanager.bat --help
+.\bin\avdmanager.bat --list
+.\bin\avdmanager.bat -list
+.\bin\avdmanager.bat list
+cd ..
+.\bin\avdmanager.bat --help
+.\bin\avdmanager.bat -help
+.\bin\avdmanager.bat create avd
+avdmanager.pkg-update-all
+ls
+.\bin\avdmanager.bat create avd
+.\bin\avdmanager.bat
+set ANDROID_SDK_ROOT=C:\App\android\sdk
+ls
+.\avdmanager.bat
+.\avdmanager.bat list avd
+.\avdmanager.bat list device
+.\avdmanager.bat create
+.\avdmanager.bat create avd -d 46
+.\avdmanager.bat create avd -d 46 --name shades
+pwsh
+pwsh  avdmanager.pkg-update-all
+.\bin\avdmanager.bat create avd
+.\bin\avdmanager.bat create avd -d 46
+.\bin\avdmanager.bat create avd -d 46 -k 'system-images;android-19;google_apis;x86' -n shades
+.\bin\avdmanager.bat
+.\bin\avdmanager.bat create avd
+.\bin\avdmanager.bat create avd -d 46 -k 'system-images;android-19;google_apis;x86' -n shades -b auto-select
+cd ~
+Install-Module -Name Microsoft.RDInfra.RDPowerShell`
+
+Install-Module -Name Microsoft.RDInfra.RDPowerShell
+Get-PSRepository
+avdmanager
+cd C:\App\
+ls
+cd .\android\sdk\cmdline-tools\latest\
+ls
+l
+ls        
+ls   bin
+ls   .\bin\sdkmanager.bat
+ .\bin\sdkmanager.bat
+ .\bin\sdkmanager.bat --list-installed
+ .\bin\sdkmanager.bat --list_installed
+ .\bin\sdkmanager.bat --list
+ls
+cd .\android\sdk\cmdline-tools\latest\
+cd android
+ls
+cd cmd
+cd cmdl
+ls
+cd .\cmdline-tools\latest\
+.\bin\sdkmanager.bat # Source - https://stackoverflow.com/a`
+# Posted by Tom`
+# Retrieved 2026-01-09, License - CC BY-SA 3.0`
+`
+sdkmanager "platforms;android-25" `
+
+.\bin\sdkmanager.bat # Source - https://stackoverflow.com/a`
+# Posted by Tom`
+# Retrieved 2026-01-09, License - CC BY-SA 3.0`
+`
+bin\sdkmanager "platforms;android-25" `
+
+cd bin
+sdkmanager --update
+.\sdkmanager.bat --update
+sdkmanager --list
+sdkmanager.bat --list
+.\sdkmanager.bat --list
+.\sdkmanager.bat --update
+ls
+cd cmdlinetool
+ls
+cd cmdline-tool
+cd .\cmdline-tools\
+ls
+cd .\latest\
+bin\bin/sdkmanager "platform-tools" "platforms;android–27" "build-tools;27.0.3"
+bin/sdkmanager "platform-tools" "platforms;android–27" "build-tools;27.0.3"
+.\bin\sdkmanager.bat # Source - https://stackoverflow.com/a`
+# Posted by Tom`
+# Retrieved 2026-01-09, License - CC BY-SA 3.0`
+`
+sdkmanager "platforms;android-27" `
+
+.\bin\sdkmanager.bat # Source - https://stackoverflow.com/a`
+# Posted by Tom`
+# Retrieved 2026-01-09, License - CC BY-SA 3.0`
+`
+bin\bin/sdkmanager "platform-tools" "platforms;android–27" "build-tools;27.0.3"sdkmanager "platforms;android-27" `
+
+.\bin\sdkmanager.bat
+.\bin\sdkmanager.bat # Source - https://stackoverflow.com/a`
+# Posted by Tom`
+# Retrieved 2026-01-09, License - CC BY-SA 3.0`
+`
+./bin/sdkmanager "platform-tools" "platforms;android–27" "build-tools;27.0.3"
+.\bin\sdkmanager.bat # Source - https://stackoverflow.com/a`
+# Posted by Tom`
+# Retrieved 2026-01-09, License - CC BY-SA 3.0`
+`
+./bin/sdkmanager "platform-tools"
+.\bin\sdkmanager.bat # Source - https://stackoverflow.com/a`
+# Posted by Tom`
+# Retrieved 2026-01-09, License - CC BY-SA 3.0`
+`
+./bin/sdkmanager "platforms;android–27"
+.\bin\sdkmanager.bat # Source - https://stackoverflow.com/a`
+# Posted by Tom`
+# Retrieved 2026-01-09, License - CC BY-SA 3.0`
+`
+.\bin\sdkmanager.bat "platform-tools" "platforms;android–27" "build-tools;27.0.3"
+.\bin\sdkmanager.bat # Source - https://stackoverflow.com/a`
+# Posted by Tom`
+# Retrieved 2026-01-09, License - CC BY-SA 3.0`
+`
+.\bin\sdkmanager.bat "platform-tools" "build-tools;27.0.3"
+ls
+gradlew
+.\gradlew.bat
+ls
+.\gradlew.bat .\termux-shared\
+.\gradlew.bat app
+.\gradlew.bat 
+.\gradlew.bat --help
+.\gradlew.bat -x
+.\gradlew.bat run
+.\gradlew.bat termux
+termux
+.\gradlew.bat .\terminal-view
+.\gradlew.bat tasks
+.\gradlew.bat installDebug
+.\gradlew.bat install
+.\gradlew.bat .\app\
+.\gradlew.bat app
+.\gradlew.bat
+.\gradlew.bat --tasks
+.\gradlew.bat tasks
+.\gradlew.bat tasks --all
+.\gradlew.bat wrapper
+.\gradlew.bat installDebug
+.\gradlew.bat
+.\gradlew.bat installDebug
+.\gradlew.bat test
+.\gradlew.bat
+.\gradlew.bat installDebug
+.\gradlew.bat build
+C:\App\android\sdk\cmdline-tools\latest\bin\sdkmanager.bat --licenses
+y
+echo "`
+-------------------------------------`
+`
+All Licenses should be accepted. '`
+Please close this terminal. '`
+`
+-------------------------------------`
+"
+# Start your emulator first, then:
+adb install app\build\outputs\apk\debug\app-debug.apk
+adb.exe install app\build\outputs\apk\debug\app-debug.apk
+C:\App\android\sdk\emulator\emulator.exe -avd Termux_Emulator
+wsl.exe --update
+ubuntu
+quit
+wsl.exe --list
+wsl.exe --help
+wsl.exe --list
+wt -p "Command Prompt" `; split-pane -p "Windows PowerShell" `; split-pane -H wsl.exe
+& C:/workspace/congenial-octo-telegram/.venv/Scripts/Activate.ps1
+LS
+ls
+& C:/workspace/congenial-octo-telegram/.venv/Scripts/Activate.ps1
+ls
+$env:ACCOUNT_1_SERVER="imap.gmail.com"
+& C:/workspace/congenial-octo-telegram/.venv/Scripts/Activate.ps1
+$env:ACCOUNT_1_PASS="m!psxBZwZFt$AMtKnw%HXxzaKU*WapAjsA57ZE^XVHt7x$2^Cz"
+ls
+python .\reporting\email_report.py
+$env:RECIPIENT_EMAIL="loturco1987@gmail.com"
+python .\reporting\email_report.py
+```powershell
+# Create profile if it doesn't exist
+if (!(Test-Path $PROFILE)) {`
+    New-Item -Path $PROFILE -ItemType File -Force`
+}
+# Add auto-save function
+@'`
+# Auto-save command history on exit`
+function Save-SessionCommands {`
+    $logFile = "C:\workspace\congenial-octo-telegram\session-commands.txt"`
+    "`n=== Session: $(Get-Date) ===" | Add-Content $logFile`
+    Get-History | Select-Object -ExpandProperty CommandLine | Add-Content $logFile`
+}`
+Register-EngineEvent -SourceIdentifier PowerShell.Exiting -Action { Save-SessionCommands }`
+'@ | Add-Content $PROFILE
+# Reload profile
+. $PROFILE
+# Export all recent commands to a file
+Get-History | Select-Object CommandLine | Out-File "commands.txt"
+# Or export to your project folder
+# Export all recent commands to a file`
+Get-History | Select-Object CommandLine | Out-File "commands.txt"`
+`
+# Or export to your project folder`
+Get-History | Select-Object CommandLine | Out-File "C:\workspace\congenial-octo-telegram\command-history.txt"
+# Export commands with timestamps`
+Get-History | Select-Object @{Name='Time';Expression={$_.StartExecutionTime}}, CommandLine | `
+    Export-Csv "C:\workspace\congenial-octo-telegram\command-history.csv" -NoTypeInformation
+# Edit your profile`
+notepad $PROFILE`
+`
+# Add this line at the end:`
+function Save-CommandHistory {`
+    $historyFile = "C:\workspace\congenial-octo-telegram\command-history.txt"`
+    Get-History | Select-Object CommandLine | Out-File $historyFile -Append`
+}`
+`
+# Run when PowerShell exits`
+Register-EngineEvent -SourceIdentifier PowerShell.Exiting -Action { Save-CommandHistory }
+# Find where it's saved`
+(Get-PSReadLineOption).HistorySavePath`
+`
+# View it`
+Get-Content (Get-PSReadLineOption).HistorySavePath | Select-Object -Last 50`
+`
+# Copy to your project`
+Copy-Item (Get-PSReadLineOption).HistorySavePath -Destination "C:\workspace\congenial-octo-telegram\all-commands.txt"

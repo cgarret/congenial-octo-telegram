@@ -1,0 +1,7 @@
+"Time","CommandLine"
+"16/01/2026 21:20:44","```powershell"
+"16/01/2026 22:00:02","# Export all recent commands to a file
+Get-History | Select-Object CommandLine | Out-File ""commands.txt""
+
+# Or export to your project folder
+Get-History | Select-Object CommandLine | Out-File ""C:\workspace\congenial-octo-telegram\command-history.txt"""
