@@ -16,34 +16,33 @@ $envExample = Join-Path $projectRoot ".env.example"
 
 if (Test-Path $envFile) {
     Write-Host "Loading variables from .env file..." -ForegroundColor Green
-    
-    # Read and parse .env file
+
+    # Read and parse .env file (supports quoted values and values containing =)
     Get-Content $envFile | ForEach-Object {
         $line = $_.Trim()
 
         # Skip empty lines and comments
         if ($line -and -not $line.StartsWith("#")) {
-            # Parse KEY=VALUE format (allow values containing =)
             $splitIndex = $line.IndexOf('=')
             if ($splitIndex -ge 0) {
                 $key = $line.Substring(0, $splitIndex).Trim()
                 $value = $line.Substring($splitIndex + 1).Trim()
 
-                # Remove surrounding quotes if present
-                if (($value.StartsWith('"') -and $value.EndsWith('"')) -or ($value.StartsWith("'") -and $value.EndsWith("'"))) {
-                    if ($value.Length -ge 2) { $value = $value.Substring(1, $value.Length - 2) }
+                # Strip matching surrounding quotes
+                if ((($value.StartsWith('"') -and $value.EndsWith('"')) -or ($value.StartsWith("'") -and $value.EndsWith("'"))) -and $value.Length -ge 2) {
+                    $value = $value.Substring(1, $value.Length - 2)
                 }
 
-                # Set environment variable in the current process
+                # Set environment variable in current process
                 Set-Item -Path "env:$key" -Value $value
                 Write-Host "  ✓ Loaded: $key" -ForegroundColor Gray
             }
         }
     }
-    
+
     Write-Host ""
     Write-Host "✓ Environment variables loaded from .env" -ForegroundColor Green
-    
+
 } elseif (Test-Path $envExample) {
     Write-Host "⚠ No .env file found!" -ForegroundColor Yellow
     Write-Host ""
@@ -52,7 +51,7 @@ if (Test-Path $envFile) {
     Write-Host "  Then edit .env with your credentials" -ForegroundColor Cyan
     Write-Host ""
     exit 1
-    
+
 } else {
     Write-Host "⚠ No .env or .env.example file found!" -ForegroundColor Yellow
     Write-Host ""
@@ -78,14 +77,13 @@ while ($true) {
     $emailVar = "ACCOUNT_${accountNum}_EMAIL"
     $protocolVar = "ACCOUNT_${accountNum}_PROTOCOL"
 
-    # Use GetEnvironmentVariable for dynamic names
     $email = [System.Environment]::GetEnvironmentVariable($emailVar)
     if (-not $email) { break }
 
     $protocol = [System.Environment]::GetEnvironmentVariable($protocolVar)
     if (-not $protocol) { $protocol = "IMAP" }
 
-    Write-Host "  Account $accountNum: $email ($protocol)" -ForegroundColor White
+    Write-Host ("  Account {0}: {1} ({2})" -f $accountNum, $email, $protocol) -ForegroundColor White
     $accountCount++
     $accountNum++
 }
@@ -97,22 +95,25 @@ if ($accountCount -eq 0) {
 }
 
 # Display sender configuration
-if ($env:SENDER_EMAIL) {
-    Write-Host "  Sender: $env:SENDER_EMAIL" -ForegroundColor White
+$sender = [System.Environment]::GetEnvironmentVariable('SENDER_EMAIL')
+if ($sender) {
+    Write-Host ("  Sender: {0}" -f $sender) -ForegroundColor White
 } else {
     Write-Host "  ⚠ No sender email configured!" -ForegroundColor Yellow
 }
 
 # Display recipient
-if ($env:RECIPIENT_EMAIL) {
-    Write-Host "  Recipient: $env:RECIPIENT_EMAIL" -ForegroundColor White
+$recipient = [System.Environment]::GetEnvironmentVariable('RECIPIENT_EMAIL')
+if ($recipient) {
+    Write-Host ("  Recipient: {0}" -f $recipient) -ForegroundColor White
 } else {
     Write-Host "  ⚠ No recipient email configured!" -ForegroundColor Yellow
 }
 
 # Display optional settings
-$daysBack = if ($env:DAYS_BACK) { $env:DAYS_BACK } else { "7 (default)" }
-Write-Host "  Days back: $daysBack" -ForegroundColor Gray
+$daysBack = [System.Environment]::GetEnvironmentVariable('DAYS_BACK')
+if (-not $daysBack) { $daysBack = '7 (default)' }
+Write-Host ("  Days back: {0}" -f $daysBack) -ForegroundColor Gray
 
 Write-Host ""
 Write-Host "✓ Variables loaded into current session" -ForegroundColor Green
